@@ -23,5 +23,6 @@
 - LinkedIn: [https://www.linkedin.com/in/jenius-calvin/]  
 - Telegram: [@care_sys]
 
-![Stats](https://github-readme-stats.vercel.app/api?username=bangjc&show_icons=true&theme=tokyonight)
+![Stats](https://github-readme-stats-git-master-rstaa.vercel.app/api?username=bangjc&show_icons=true&theme=tokyonight)
+
 
