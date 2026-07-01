@@ -1,16 +1,24 @@
-## Hi there 👋
+# 👋 Hi, I'm Jenius Calvin
 
-<!--
-**bangjc/bangjc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 Head of IT Department at PT. Mitra Asa Pratama  
+⚡ Passionate about automation, Odoo, and scalable systems  
+📊 Love creating guides, SOPs, and visual reports  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔧 Tech Stack
+- Odoo | AppSheet | Google Sheets | Python
+- Workflow Automation | Strategic Planning | Documentation
+
+---
+
+## 📈 Current Focus
+- 🚀 Digitalization & cross-department systems  
+- 📌 Weekly IT Tips of the Week  
+- 🛠️ Inventory & sales tracking automation  
+
+---
+
+## 🌐 Connect with Me
+- LinkedIn: [https://www.linkedin.com/in/jenius-calvin/]  
+- Telegram: [@care_sys]
