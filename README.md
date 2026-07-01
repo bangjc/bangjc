@@ -25,7 +25,9 @@
 
 ---
 
-## 📊 GitHub Stats
-![Jenius' GitHub stats](https://github-readme-stats-git-master-rstaa.vercel.app/api?username=bangjc&show_icons=true&theme=tokyonight&count_private=true)
+## 📊 GitHub Badges
 
-![Top Langs](https://github-readme-stats-git-master-rstaa.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight)
+![Followers](https://img.shields.io/github/followers/bangjc?style=social)
+![Stars](https://img.shields.io/github/stars/bangjc?style=social)
+![Repos](https://img.shields.io/badge/Public%20Repos-5-blue)
+![Profile Views](https://komarev.com/ghpvc/?username=bangjc&color=green)
