@@ -22,4 +22,5 @@
 ## 🌐 Connect with Me
 - LinkedIn: [https://www.linkedin.com/in/jenius-calvin/]  
 - Telegram: [@care_sys]
+
 ![Jenius' GitHub stats](https://github-readme-stats.vercel.app/api?username=bangjc&show_icons=true&theme=tokyonight)
