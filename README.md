@@ -23,7 +23,11 @@
 - LinkedIn: [https://www.linkedin.com/in/jenius-calvin/]  
 - Telegram: [@care_sys]
 
-![Stats](https://github-readme-stats-git-master-rstaa.vercel.app/api?username=bangjc&show_icons=true&theme=tokyonight)
+---
 
+## 📊 GitHub Stats
+![Jenius' GitHub stats](https://github-readme-stats-git-master-rstaa.vercel.app/api?username=bangjc&show_icons=true&theme=tokyonight)
+
+![Top Langs](https://github-readme-stats-git-master-rstaa.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight)
 
 
