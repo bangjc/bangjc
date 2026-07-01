@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Jenius Calvin | D
+# 👋 Hi, I'm Jenius Calvin | System Development
 
 💻 Head of IT Department at PT. Mitra Asa Pratama  
 ⚡ Passionate about automation, Odoo, and scalable systems  
