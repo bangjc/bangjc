@@ -26,8 +26,6 @@
 ---
 
 ## 📊 GitHub Stats
-![Stats](https://github-readme-stats-git-master-rstaa.vercel.app/api?username=bangjc&show_icons=true&theme=tokyonight&count_private=true)
+![Jenius' GitHub stats](https://github-readme-stats-git-master-rstaa.vercel.app/api?username=bangjc&show_icons=true&theme=tokyonight&count_private=true)
 
 ![Top Langs](https://github-readme-stats-git-master-rstaa.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight)
-
-
