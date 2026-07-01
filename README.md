@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Jenius Calvin
+# 👋 Hi, I'm Jenius Calvin | D
 
 💻 Head of IT Department at PT. Mitra Asa Pratama  
 ⚡ Passionate about automation, Odoo, and scalable systems  
@@ -15,7 +15,8 @@
 ## 📈 Current Focus
 - 🚀 Digitalization & cross-department systems  
 - 📌 Weekly IT Tips of the Week  
-- 🛠️ Inventory & sales tracking automation  
+- 🛠️ Inventory & sales tracking automation
+- 📈 Reporting Views
 
 ---
 
