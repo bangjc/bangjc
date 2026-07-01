@@ -33,7 +33,8 @@
 
 ## 📊 GitHub Badges
 
-![Commits](https://img.shields.io/badge/Commits-2026-orange)
+![Commit Activity](https://img.shields.io/github/commit-activity/y/bangjc?color=orange)
+![Last Commit](https://img.shields.io/github/last-commit/bangjc/bangjc?color=blue)
 ![Top Langs](https://github-readme-stats-git-master-rstaa.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight)
 ![Followers](https://img.shields.io/github/followers/bangjc?style=social)
 ![Stars](https://img.shields.io/github/stars/bangjc?style=social)
