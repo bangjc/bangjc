@@ -7,7 +7,7 @@
 ---
 
 ## 🔧 Tech Stack
-- Odoo | AppSheet | Google Sheets | Python
+- Odoo | AppSheet | Google Sheets | Python | Google Apps Script
 - Workflow Automation | Strategic Planning | Documentation
 
 ---
