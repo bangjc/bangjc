@@ -1,9 +1,17 @@
-<h1 align="center">👋 Hi, I'm Jenius Calvin</h1>
+<h1 align="center"><b>👋 Hi, I'm Jenius Calvin</b></h1>
 <h3 align="center">System Development | IT Department Head</h3>
 
 <p align="center">
 💻 Automation • Odoo • Scalable Systems <br/>
 📊 Guides • SOPs • Visual Reports
+</p>
+<p align="center">
+  <a href="https://www.linkedin.com/in/jenius-calvin/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://t.me/care_sys" align="center">
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
+  </a>
 </p>
 
 ---
@@ -60,13 +68,3 @@ Currently focusing on **digitalization, reporting views, and cross-department sy
 [![Jenius' GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=bangjc&theme=tokyo-night)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
-
-<h2 align="center">🌐 Connect with Me</h2>
-<p align="center">
-  <a href="https://www.linkedin.com/in/jenius-calvin/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://t.me/care_sys">
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
-  </a>
-</p>
