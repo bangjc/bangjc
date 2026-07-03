@@ -8,13 +8,13 @@
 
 ---
 
-## 🚀 About Me
+<h2 align="center">🚀 About Me </h2>
 Passionate about building automation workflows, scalable business systems, and empowering teams with clear documentation.  
 Currently focusing on **digitalization, reporting views, and cross-department systems**.
 
 ---
 
-## 🔧 Tech Stack
+<h2 align="center">🔧 Tech Stack</h2>
 <p align="center">
   <img src="https://img.shields.io/badge/Odoo-7A1FA2?logo=odoo&logoColor=white" />
   <img src="https://img.shields.io/badge/AppSheet-4285F4?logo=google&logoColor=white" />
@@ -24,14 +24,13 @@ Currently focusing on **digitalization, reporting views, and cross-department sy
 </p>
 
 ---
-
-## 📌 Featured Projects
+<h2 align="center">📌 Featured Projects</h2>  
 - 🔧 [Automation Scripts](https://github.com/bangjc/automation-demo)  
 - 📦 [Odoo Custom Modules](https://github.com/bangjc/odoo-tools)  
 
 ---
 
-## 📊 GitHub Stats
+<h2 align="center">📊 GitHub Stats</h2>
 <p align="center">
   <img src="https://github-readme-stats-git-master-rstaa.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight" />
 </p>
@@ -44,14 +43,13 @@ Currently focusing on **digitalization, reporting views, and cross-department sy
   <img src="https://komarev.com/ghpvc/?username=bangjc&color=green" />
 </p>
 
----
+<h3 align="center">📈 Contribution/Activity</h3>
 
-## 📈 Contribution Graph
 [![Jenius' GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=bangjc&theme=tokyo-night)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
 
-## 🌐 Connect with Me
+<h2 align="center">🌐 Connect with Me</h2>
 <p align="center">
   <a href="https://www.linkedin.com/in/jenius-calvin/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
