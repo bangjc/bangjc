@@ -24,9 +24,21 @@ Currently focusing on **digitalization, reporting views, and cross-department sy
 </p>
 
 ---
-<h2 align="center">📌 Featured Projects</h2>  
-- 🔧 [Automation Scripts](https://github.com/bangjc/automation-demo)  
-- 📦 [Odoo Custom Modules](https://github.com/bangjc/odoo-tools)  
+<h2 align="center"> 📌 Featured Projects </h2>  
+<table align="center">
+<tr>
+<td align="center">
+  <a href="https://github.com/bangjc/automation-demo">
+    <img src="https://img.shields.io/badge/Automation%20Scripts-FF9800?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</td>
+<td align="center">
+  <a href="https://github.com/bangjc/odoo-tools">
+    <img src="https://img.shields.io/badge/Odoo%20Custom%20Modules-673AB7?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</td>
+</tr>
+</table>
 
 ---
 
