@@ -1,4 +1,5 @@
-<h1 align="center">👋 Hi, I'm Jenius Calvin</h1>
+<!-- Hero Section -->
+<h1 align="center">👋 Hi, I'm <span style="color:#4DB6AC">Jenius Calvin</span></h1>
 <h3 align="center">System Development | IT Department Head</h3>
 
 <p align="center">
@@ -26,8 +27,20 @@ Currently focusing on **digitalization, reporting views, and cross-department sy
 ---
 
 ## 📌 Featured Projects
-- 🔧 [Automation Scripts](https://github.com/bangjc/automation-demo)  
-- 📦 [Odoo Custom Modules](https://github.com/bangjc/odoo-tools)  
+<table>
+<tr>
+<td align="center">
+  <a href="https://github.com/bangjc/automation-demo">
+    <img src="https://img.shields.io/badge/Automation%20Scripts-FF9800?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</td>
+<td align="center">
+  <a href="https://github.com/bangjc/odoo-tools">
+    <img src="https://img.shields.io/badge/Odoo%20Custom%20Modules-673AB7?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -49,9 +62,9 @@ Currently focusing on **digitalization, reporting views, and cross-department sy
 ## 🌐 Connect with Me
 <p align="center">
   <a href="https://www.linkedin.com/in/jenius-calvin/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://t.me/care_sys">
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=white" />
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
 </p>
