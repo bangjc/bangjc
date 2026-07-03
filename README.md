@@ -1,5 +1,4 @@
-<!-- Hero Section -->
-<h1 align="center">👋 Hi, I'm <span style="color:#4DB6AC">Jenius Calvin</span></h1>
+<h1 align="center">👋 Hi, I'm Jenius Calvin</h1>
 <h3 align="center">System Development | IT Department Head</h3>
 
 <p align="center">
@@ -10,7 +9,7 @@
 ---
 
 ## 🚀 About Me
-I’m passionate about building automation workflows, scalable business systems, and empowering teams with clear documentation.  
+Passionate about building automation workflows, scalable business systems, and empowering teams with clear documentation.  
 Currently focusing on **digitalization, reporting views, and cross-department systems**.
 
 ---
@@ -27,20 +26,8 @@ Currently focusing on **digitalization, reporting views, and cross-department sy
 ---
 
 ## 📌 Featured Projects
-<table>
-<tr>
-<td align="center">
-  <a href="https://github.com/bangjc/automation-demo">
-    <img src="https://img.shields.io/badge/Automation%20Scripts-FF9800?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</td>
-<td align="center">
-  <a href="https://github.com/bangjc/odoo-tools">
-    <img src="https://img.shields.io/badge/Odoo%20Custom%20Modules-673AB7?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</td>
-</tr>
-</table>
+- 🔧 [Automation Scripts](https://github.com/bangjc/automation-demo)  
+- 📦 [Odoo Custom Modules](https://github.com/bangjc/odoo-tools)  
 
 ---
 
@@ -56,6 +43,11 @@ Currently focusing on **digitalization, reporting views, and cross-department sy
   <img src="https://img.shields.io/github/stars/bangjc?style=social" />
   <img src="https://komarev.com/ghpvc/?username=bangjc&color=green" />
 </p>
+
+---
+
+## 📈 Contribution Graph
+[![Jenius' GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=bangjc&theme=tokyo-night)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
 
