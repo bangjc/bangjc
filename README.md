@@ -1,51 +1,57 @@
-# 👋 Hi, I'm Jenius Calvin | System Development
+<h1 align="center">👋 Hi, I'm Jenius Calvin</h1>
+<h3 align="center">System Development | IT Department Head</h3>
 
-💻 Head of IT Department at PT. Mitra Asa Pratama  
-⚡ Automation | Odoo | Scalable Systems  
-📊 Guides • SOPs • Visual Reports  
+<p align="center">
+💻 Automation • Odoo • Scalable Systems <br/>
+📊 Guides • SOPs • Visual Reports
+</p>
 
 ---
 
 ## 🚀 About Me
-I love building automation workflows, scalable business systems, and empowering teams with clear documentation.  
+I’m passionate about building automation workflows, scalable business systems, and empowering teams with clear documentation.  
 Currently focusing on **digitalization, reporting views, and cross-department systems**.
 
 ---
 
 ## 🔧 Tech Stack
-![Odoo](https://img.shields.io/badge/Odoo-7A1FA2?logo=odoo&logoColor=white)
-![AppSheet](https://img.shields.io/badge/AppSheet-4285F4?logo=google&logoColor=white)
-![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?logo=google-sheets&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Google Apps Script](https://img.shields.io/badge/Google%20Apps%20Script-4285F4?logo=google&logoColor=white)
-
----
-
-## 📈 Current Focus
-- 🚀 Digitalization & cross-department systems  
-- 📌 Weekly IT Tips of the Week  
-- 🛠️ Inventory & sales tracking automation  
-- 📊 Reporting Views  
+<p align="center">
+  <img src="https://img.shields.io/badge/Odoo-7A1FA2?logo=odoo&logoColor=white" />
+  <img src="https://img.shields.io/badge/AppSheet-4285F4?logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20Sheets-34A853?logo=google-sheets&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20Apps%20Script-4285F4?logo=google&logoColor=white" />
+</p>
 
 ---
 
 ## 📌 Featured Projects
-- [Automation Scripts](https://github.com/bangjc/automation-demo)  
-- [Odoo Custom Modules](https://github.com/bangjc/odoo-tools)  
+- 🔧 [Automation Scripts](https://github.com/bangjc/automation-demo)  
+- 📦 [Odoo Custom Modules](https://github.com/bangjc/odoo-tools)  
 
 ---
 
-## 📊 GitHub Stats & Activity
-![Commit Activity](https://img.shields.io/github/commit-activity/y/bangjc?color=orange)
-![Last Commit](https://img.shields.io/github/last-commit/bangjc/bangjc?color=blue)
-![Followers](https://img.shields.io/github/followers/bangjc?style=social)
-![Stars](https://img.shields.io/github/stars/bangjc?style=social)
-![Profile Views](https://komarev.com/ghpvc/?username=bangjc&color=green)
+## 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats-git-master-rstaa.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight" />
+</p>
 
-![Top Langs](https://github-readme-stats-git-master-rstaa.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight)
+<p align="center">
+  <img src="https://img.shields.io/github/commit-activity/y/bangjc?color=orange" />
+  <img src="https://img.shields.io/github/last-commit/bangjc/bangjc?color=blue" />
+  <img src="https://img.shields.io/github/followers/bangjc?style=social" />
+  <img src="https://img.shields.io/github/stars/bangjc?style=social" />
+  <img src="https://komarev.com/ghpvc/?username=bangjc&color=green" />
+</p>
 
 ---
 
 ## 🌐 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jenius-calvin/)  
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=white)](https://t.me/care_sys)
+<p align="center">
+  <a href="https://www.linkedin.com/in/jenius-calvin/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://t.me/care_sys">
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=white" />
+  </a>
+</p>
