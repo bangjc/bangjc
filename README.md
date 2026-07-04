@@ -50,10 +50,11 @@ Building scalable business systems, automating workflows, and transforming ideas
 <h2 align="center">🚀 Featured Projects</h2>
 
 <p align="center">
-  
-  🤖 **Automation Scripts** • 🏢 **Odoo Modules** • 📊 **Executive Dashboard**
-  📱 **AppSheet Solutions** • 📑 **Digital SOP** 
-
+<img src="https://img.shields.io/badge/Automation_Scripts-orange?style=flat-square"/>
+<img src="https://img.shields.io/badge/Odoo_Modules-purple?style=flat-square"/>
+<img src="https://img.shields.io/badge/Executive_Dashboard-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/AppSheet_Solutions-green?style=flat-square"/>
+<img src="https://img.shields.io/badge/Digital_SOP-red?style=flat-square"/>
 </p>
 
 ---
