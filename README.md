@@ -1,70 +1,69 @@
-<h1 align="center"><b>👋 Hi, I'm Jenius Calvin</b></h1>
-<h3 align="center">System Development | IT Department Head</h3>
+<h1 align="center">Hi 👋, I'm <b>Jenius Calvin</b></h1>
+<p align="center">▼</p>
 
 <p align="center">
-💻 Automation • Odoo • Scalable Systems <br/>
-📊 Guides • SOPs • Visual Reports
+<b>System Development • IT Department Head • Odoo Developer</b><br>
+Building scalable business systems, automating workflows, and transforming ideas into digital solutions.
 </p>
+
 <p align="center">
-  <a href="https://www.linkedin.com/in/jenius-calvin/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://t.me/care_sys" align="center">
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
-  </a>
+<a href="https://www.linkedin.com/in/jenius-calvin/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+</a>
+<a href="https://t.me/care_sys">
+<img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white"/>
+</a>
+<a href="mailto:jeniuscalvin@email.com">
+<img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
+</a>
+</p>
+
+<p align="center">
+💼 IT Department Head • 🏗️ Odoo ERP Developer • ⚙️ Business Automation
+📊 Dashboard & Reporting • 📱 AppSheet • ☁️ Google Workspace
+🧩 System Integration • 📚 SOP Documentation • 🤖 AI for Business
+</p>
+
+<p align="center">
+<i>"Building systems that make people work smarter, not harder."</i>
+</p>
+
+---
+
+<h2 align="center">🛠 Tech Stack</h2>
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,git,github,vscode" />
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Odoo-7A1FA2?logo=odoo&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/AppSheet-4285F4?logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google%20Sheets-34A853?logo=googlesheets&logoColor=white"/>
+<img src="https://img.shields.io/badge/Apps%20Script-4285F4?logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/XML-E34F26"/>
 </p>
 
 ---
 
-<h2 align="center">🚀 About Me </h2>
-Passionate about building automation workflows, scalable business systems, and empowering teams with clear documentation.  
-Currently focusing on **digitalization, reporting views, and cross-department systems**.
+<h2 align="center">🚀 Featured Projects</h2>
 
----
-
-<h2 align="center">🔧 Tech Stack</h2>
 <p align="center">
-  <img src="https://img.shields.io/badge/Odoo-7A1FA2?logo=odoo&logoColor=white" />
-  <img src="https://img.shields.io/badge/AppSheet-4285F4?logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google%20Sheets-34A853?logo=google-sheets&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google%20Apps%20Script-4285F4?logo=google&logoColor=white" />
+  
+  🤖 **Automation Scripts** • 🏢 **Odoo Modules** • 📊 **Executive Dashboard**
+  📱 **AppSheet Solutions** • 📑 **Digital SOP** 
+
 </p>
 
 ---
-<h2 align="center"> 📌 Featured Projects </h2>  
-<table align="center">
-<tr>
-<td align="center">
-  <a href="https://github.com/bangjc/automation-demo">
-    <img src="https://img.shields.io/badge/Automation%20Scripts-FF9800?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</td>
-<td align="center">
-  <a href="https://github.com/bangjc/odoo-tools">
-    <img src="https://img.shields.io/badge/Odoo%20Custom%20Modules-673AB7?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</td>
-</tr>
-</table>
 
----
-
-<h2 align="center">📊 GitHub Stats</h2>
-<p align="center">
-  <img src="https://github-readme-stats-git-master-rstaa.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight" />
-</p>
+<h2 align="center">📈 GitHub Analytics</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/github/commit-activity/y/bangjc?color=orange" />
-  <img src="https://img.shields.io/github/last-commit/bangjc/bangjc?color=blue" />
-  <img src="https://img.shields.io/github/followers/bangjc?style=social" />
-  <img src="https://img.shields.io/github/stars/bangjc?style=social" />
-  <img src="https://komarev.com/ghpvc/?username=bangjc&color=green" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=bangjc&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true"/>
+<p align="center">▼       
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bangjc&theme=tokyo-night"/>
+  <img src="https://komarev.com/ghpvc/?username=bangjc&style=flat-square"/>
 </p>
-
-<h3 align="center">📈 Contribution/Activity</h3>
-
-[![Jenius' GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=bangjc&theme=tokyo-night)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
----
