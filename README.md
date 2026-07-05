@@ -69,6 +69,9 @@ Building scalable business systems, automating workflows, and transforming ideas
     <td>
       <img width="420" src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true" />
     </td>
+    <td>
+      <img width="420" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true" />
+    </td>
   </tr>
 </table>
 <p align="center">▼       
