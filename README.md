@@ -32,7 +32,7 @@ Building scalable business systems, automating workflows, and transforming ideas
 <table align="center">
   <tr>
     <td>
-      <img width="420" src="https://github-readme-stats-sigma-five.vercel.app/api?username=bangjc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+      <img width="420" src="https://github-readme-stats-bangjcs-projects.vercel.app/api?username=bangjc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
     </td>
     <td>
       <img width="420" src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" />
