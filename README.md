@@ -26,6 +26,22 @@ Building scalable business systems, automating workflows, and transforming ideas
 
 <p align="center">
 <i>"Building systems that make people work smarter, not harder."</i>
+  
+  ---
+
+<table align="center">
+  <tr>
+    <td>
+      <img width="420" src="https://github-readme-stats-sigma-five.vercel.app/api?username=bangjc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+    </td>
+    <td>
+      <img width="420" src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" />
+    </td>
+    <td>
+      <img width="420" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" />
+    </td>
+  </tr>
+</table>
 </p>
 
 ---
@@ -59,9 +75,9 @@ Building scalable business systems, automating workflows, and transforming ideas
 
 ---
 
-<h2 align="center">📈 GitHub Analytics</h2>
+<!-- <h2 align="center">📈 GitHub Analytics</h2> -->
 
-<table align="center">
+<!-- <table align="center">
   <tr>
     <td>
       <img width="420" src="https://github-readme-stats-sigma-five.vercel.app/api?username=bangjc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
@@ -73,7 +89,7 @@ Building scalable business systems, automating workflows, and transforming ideas
       <img width="420" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" />
     </td>
   </tr>
-</table>
+</table> -->
 <p align="center">▼       
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=bangjc&theme=tokyo-night"/>
   <img src="https://komarev.com/ghpvc/?username=bangjc&style=flat-square"/>
