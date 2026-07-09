@@ -14,5 +14,8 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Jakarta
+
+          # Plugin untuk issues
           plugin_issues: yes
-          plugin_issues_limit: 100
+          plugin_issues_author: yes   # tampilkan issue yang Anda buat
+          plugin_issues_limit: 100    # jumlah issue yang ditampilkan
