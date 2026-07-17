@@ -81,13 +81,13 @@ Building scalable business systems, automating workflows, and transforming ideas
 <img src="https://img.shields.io/badge/Digital_SOP-red?style=flat-square"/><br>
   
   <a href="https://github.com/bangjc/sheet-to-github-issues">
-    <img width="200" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=sheet-to-github-issues&theme=tokyonight&hide_border=true" />
+    <img width="230" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=sheet-to-github-issues&theme=tokyonight&hide_border=true" />
   </a>
   <a href="https://github.com/bangjc/Google-Form-Approval-System">
-    <img width="200" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=Google-Form-Approval-System&theme=tokyonight&hide_border=true" />
+    <img width="230" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=Google-Form-Approval-System&theme=tokyonight&hide_border=true" />
   </a>
   <a href="https://github.com/bangjc/web-audit-cli">
-    <img width="200" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=web-audit-cli&theme=tokyonight&hide_border=true" />
+    <img width="230" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=web-audit-cli&theme=tokyonight&hide_border=true" />
   </a>
 </p>
 
