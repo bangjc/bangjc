@@ -5,6 +5,9 @@
 <b>System Development • IT Department Head • Odoo Developer</b><br>
 Building scalable business systems, automating workflows, and transforming ideas into digital solutions.
 </p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E86C1&center=true&vCenter=true&width=600&lines=Building+scalable+business+systems...;Automating+workflows+with+Odoo+%26+AppSheet;Turning+ideas+into+digital+solutions;Data-driven+dashboards+%7C+SOP+%7C+AI+for+Business" alt="Typing SVG" />
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/jenius-calvin/">
@@ -90,7 +93,18 @@ Building scalable business systems, automating workflows, and transforming ideas
     </td>
   </tr>
 </table> -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bangjc/bangjc/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bangjc/bangjc/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/bangjc/bangjc/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
+
 <p align="center">▼       
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=bangjc&theme=tokyo-night"/>
   <img src="https://komarev.com/ghpvc/?username=bangjc&style=flat-square"/>
+</p>
+<p align="center">
+  <i>Thanks for stopping by — let's connect and build something great together!</i>
 </p>
