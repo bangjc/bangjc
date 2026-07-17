@@ -29,7 +29,12 @@ Building scalable business systems, automating workflows, and transforming ideas
 
 <p align="center">
 <i>"Building systems that make people work smarter, not harder."</i>
-  
+
+<p align="center">
+  🟢 <b>Status:</b> Open to discuss automation, Odoo, and system integration projects,
+  <!-- 🔴 Currently focused on internal projects -->
+</p>
+
   ---
 
 <table align="center">
@@ -73,27 +78,22 @@ Building scalable business systems, automating workflows, and transforming ideas
 <img src="https://img.shields.io/badge/Odoo_Modules-purple?style=flat-square"/>
 <img src="https://img.shields.io/badge/Executive_Dashboard-blue?style=flat-square"/>
 <img src="https://img.shields.io/badge/AppSheet_Solutions-green?style=flat-square"/>
-<img src="https://img.shields.io/badge/Digital_SOP-red?style=flat-square"/>
+<img src="https://img.shields.io/badge/Digital_SOP-red?style=flat-square"/><br>
+  
+  <a href="https://github.com/bangjc/sheet-to-github-issues">
+    <img width="200" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=sheet-to-github-issues&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/bangjc/Google-Form-Approval-System">
+    <img width="200" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=Google-Form-Approval-System&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/bangjc/web-audit-cli">
+    <img width="200" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=web-audit-cli&theme=tokyonight&hide_border=true" />
+  </a>
 </p>
 
 ---
 
-<!-- <h2 align="center">📈 GitHub Analytics</h2> -->
-
-<!-- <table align="center">
-  <tr>
-    <td>
-      <img width="420" src="https://github-readme-stats-sigma-five.vercel.app/api?username=bangjc&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-    </td>
-    <td>
-      <img width="420" src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" />
-    </td>
-    <td>
-      <img width="420" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" />
-    </td>
-  </tr>
-</table> -->
-<p align="center">
+<p align="center">▼<br>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bangjc/bangjc/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bangjc/bangjc/output/github-contribution-grid-snake.svg" />
@@ -101,7 +101,7 @@ Building scalable business systems, automating workflows, and transforming ideas
   </picture>
 </p>
 
-<p align="center">▼       
+<p align="center">       
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=bangjc&theme=tokyo-night"/>
   <img src="https://komarev.com/ghpvc/?username=bangjc&style=flat-square"/>
 </p>
