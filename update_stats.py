@@ -24,7 +24,7 @@ graphql_query = {
         following {
           totalCount
         }
-        repositories(first: 100, privacy: ALL, ownerAffiliations: [OWNER, COLLABORATOR, ORGANIZATION_MEMBER]) {
+        repositories(first: 100, ownerAffiliations: [OWNER, COLLABORATOR, ORGANIZATION_MEMBER]) {
           totalCount
           nodes {
             isPrivate
