@@ -1,0 +1,47 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Berjalan otomatis setiap hari sekali
+  workflow_dispatch: # Bisa dijalankan manual via tab Actions
+
+jobs:
+  update-stats:
+  - runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run script to fetch real stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -c "
+          import urllib.request
+          import json
+          import os
+
+          # Contoh mengambil data dari GitHub REST API secara langsung
+          headers = {'Authorization': 'token ' + os.environ['GITHUB_TOKEN']}
+          
+          # Ambil data User / Repositories untuk menghitung statistik asli
+          req = urllib.request.Request('https://api.github.com/users/bangjc', headers=headers)
+          with urllib.request.urlopen(req) as response:
+              user_data = json.loads(response.read().decode())
+              
+          print('Fetched public repos:', user_data.get('public_repos'))
+          # Anda bisa kembangkan script ini untuk menulis hasilnya ke file stats.json atau langsung merender README.md
+          "
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update real GitHub stats"
+          file_pattern: stats.json
