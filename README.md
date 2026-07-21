@@ -37,41 +37,41 @@ Building scalable business systems, automating workflows, and transforming ideas
 
   ---
 
-<table align="center" style="border-collapse: collapse; border: none;">
+<table align="center" style="border-collapse: collapse; borders: none;">
   <tr>
-    <td style="padding: 0px; border: none; background-color: #1a1b26; border-radius: 0px;">
-      <table width="420" style="background-color: #1a1b26; border-radius: 0px; padding: 0px 0px; color: #c0caf5; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; border-collapse: collapse; border: none; margin: 0px;">
+    <td style="padding: -1px; border: none; background-color: #1a1b26; border-radius: -1px;">
+      <table width="420" style="background-color: #1a1b26; border-radius: -1px; padding: -1px -1px; color: #c0caf5; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; border-collapse: collapse; border: none; margin: -1px;">
         <tr style="border: none;">
-          <td style="padding: 0px 0; border: none;">⭐ Total Stars</td>
-          <td align="right" style="padding: 0px 0; border: none;"><img src="https://img.shields.io/badge/Stars-45-9ece6a?style=flat-square&logo=github&logoColor=white"/></td>
+          <td style="padding: -1px 0; border: none;">⭐ Total Stars</td>
+          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Stars-45-9ece6a?style=flat-square&logo=github&logoColor=white"/></td>
         </tr>
         <tr style="border: none;">
-          <td style="padding: 0px 0; border: none;">🔀 Total Commits</td>
-          <td align="right" style="padding: 0px 0; border: none;"><img src="https://img.shields.io/badge/Commits-320-7aa2f7?style=flat-square&logo=git&logoColor=white"/></td>
+          <td style="padding: -1px 0; border: none;">🔀 Total Commits</td>
+          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Commits-320-7aa2f7?style=flat-square&logo=git&logoColor=white"/></td>
         </tr>
         <tr style="border: none;">
-          <td style="padding: 0px 0; border: none;">📂 Total Repos (Pub/Priv)</td>
-          <td align="right" style="padding: 0px 0; border: none;"><img src="https://img.shields.io/badge/Repos-15-e0af68?style=flat-square&logo=codeforces&logoColor=white"/></td>
+          <td style="padding: -1px 0; border: none;">📂 Total Repos </td>
+          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Repos-15-e0af68?style=flat-square&logo=codeforces&logoColor=white"/></td>
         </tr>
         <tr style="border: none;">
-          <td style="padding: 0px 0; border: none;">🔀 Pull Requests (PR)</td>
-          <td align="right" style="padding: 0px 0; border: none;"><img src="https://img.shields.io/badge/PRs-12-bb9af7?style=flat-square&logo=github&logoColor=white"/></td>
+          <td style="padding: -1px 0; border: none;">🔀 Pull Requests (PR)</td>
+          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/PRs-12-bb9af7?style=flat-square&logo=github&logoColor=white"/></td>
         </tr>
         <tr style="border: none;">
-          <td style="padding: 0px 0; border: none;">💬 PR Reviews</td>
-          <td align="right" style="padding: 0px 0; border: none;"><img src="https://img.shields.io/badge/Reviews-3-7dcfff?style=flat-square&logo=github&logoColor=white"/></td>
+          <td style="padding: -1px 0; border: none;">💬 PR Reviews</td>
+          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Reviews-3-7dcfff?style=flat-square&logo=github&logoColor=white"/></td>
         </tr>
         <tr style="border: none;">
-          <td style="padding: 0px 0; border: none;">💡 Issues Created</td>
-          <td align="right" style="padding: 0px 0; border: none;"><img src="https://img.shields.io/badge/Issues-8-f7768e?style=flat-square&logo=github&logoColor=white"/></td>
+          <td style="padding: -1px 0; border: none;">💡 Issues </td>
+          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Issues-8-f7768e?style=flat-square&logo=github&logoColor=white"/></td>
         </tr>
       </table>
     </td>
-    <td style="padding: 0px 0px 0px 0px; border: none;">
-      <img width="420" src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0px;" />
+    <td style="padding: -1px -1px -1px -1px; border: none;">
+      <img width="420" src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: -1px;" />
     </td>
-    <td style="padding: 0px 0px 0px 0px; border: none;">
-      <img width="420" src="https://github-readme-stats-bangjc.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0px;" />
+    <td style="padding: -1px -1px -1px -1px; border: none;">
+      <img width="420" src="https://github-readme-stats-bangjc.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: -1px;" />
     </td>
   </tr>
 </table>
