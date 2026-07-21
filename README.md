@@ -40,23 +40,31 @@ Building scalable business systems, automating workflows, and transforming ideas
 <table align="center" style="border-collapse: collapse; border: none;">
   <tr>
     <td style="padding: 0px; border: none; background-color: #1a1b26; border-radius: 0px;">
-      <!-- Statistik Manual (Border dan Padding luar dibersihkan total) -->
+      <!-- Statistik Lengkap (Terhubung otomatis via GitHub Actions) -->
       <table width="420" style="background-color: #1a1b26; border-radius: 0px; padding: 0px 0px; color: #c0caf5; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; border-collapse: collapse; border: none; margin: 0px;">
         <tr style="border: none;">
-          <td style="padding: 0px 0; border: none;">⭐ Total Stars</td>
-          <td align="right" style="padding: 0px 0; border: none;"><img src="https://img.shields.io/badge/Stars-45-9ece6a?style=flat-square&logo=github&logoColor=white"/></td>
+          <td style="padding: 4px 0; border: none;">⭐ Total Stars</td>
+          <td align="right" style="padding: 4px 0; border: none;"><img src="https://img.shields.io/badge/Stars-<!-- STATS:STARS -->-9ece6a?style=flat-square&logo=github&logoColor=white"/></td>
         </tr>
         <tr style="border: none;">
-          <td style="padding: 0px 0; border: none;">🔀 Total Commits</td>
-          <td align="right" style="padding: 0px 0; border: none;"><img src="https://img.shields.io/badge/Commits-320-7aa2f7?style=flat-square&logo=git&logoColor=white"/></td>
+          <td style="padding: 4px 0; border: none;">🔀 Total Commits</td>
+          <td align="right" style="padding: 4px 0; border: none;"><img src="https://img.shields.io/badge/Commits-<!-- STATS:COMMITS -->-7aa2f7?style=flat-square&logo=git&logoColor=white"/></td>
         </tr>
         <tr style="border: none;">
-          <td style="padding: 0px 0; border: none;">📂 Pull Requests</td>
-          <td align="right" style="padding: 0px 0; border: none;"><img src="https://img.shields.io/badge/PRs-12-bb9af7?style=flat-square&logo=github&logoColor=white"/></td>
+          <td style="padding: 4px 0; border: none;">📂 Total Repos (Pub/Priv)</td>
+          <td align="right" style="padding: 4px 0; border: none;"><img src="https://img.shields.io/badge/Repos-<!-- STATS:REPOS -->-e0af68?style=flat-square&logo=codeforces&logoColor=white"/></td>
         </tr>
         <tr style="border: none;">
-          <td style="padding: 0px 0; border: none;">💡 Issues / Contributed</td>
-          <td align="right" style="padding: 0px 0; border: none;"><img src="https://img.shields.io/badge/Repos-15-e0af68?style=flat-square&logo=codeforces&logoColor=white"/></td>
+          <td style="padding: 4px 0; border: none;">🔀 Pull Requests (PR)</td>
+          <td align="right" style="padding: 4px 0; border: none;"><img src="https://img.shields.io/badge/PRs-<!-- STATS:PRS -->-bb9af7?style=flat-square&logo=github&logoColor=white"/></td>
+        </tr>
+        <tr style="border: none;">
+          <td style="padding: 4px 0; border: none;">💬 PR Reviews</td>
+          <td align="right" style="padding: 4px 0; border: none;"><img src="https://img.shields.io/badge/Reviews-<!-- STATS:REVIEWS -->-7dcfff?style=flat-square&logo=github&logoColor=white"/></td>
+        </tr>
+        <tr style="border: none;">
+          <td style="padding: 4px 0; border: none;">💡 Issues Created</td>
+          <td align="right" style="padding: 4px 0; border: none;"><img src="https://img.shields.io/badge/Issues-<!-- STATS:ISSUES -->-f7768e?style=flat-square&logo=github&logoColor=white"/></td>
         </tr>
       </table>
     </td>
