@@ -2,6 +2,7 @@ import os
 import json
 import urllib.request
 import urllib.error
+import re
 
 username = "bangjc"
 token = os.environ.get("GITHUB_TOKEN")
@@ -12,7 +13,7 @@ headers = {
     "Accept": "application/vnd.github+json"
 }
 
-# Query GraphQL untuk mengambil data menyeluruh (termasuk private & organisasi jika token mendukung)
+# Query GraphQL untuk mengambil data menyeluruh
 graphql_query = {
     "query": """
     query {
@@ -67,7 +68,7 @@ try:
         
         contributions = data["contributionsCollection"]
         
-        # Susun struktur data JSON lengkap
+        # Susun data JSON
         stats = {
             "profile": {
                 "username": username,
@@ -88,11 +89,27 @@ try:
             }
         }
 
-        # Simpan ke file stats.json
-        with open("stats.json", "w") as f:
+        # Simpan ke stats.json
+        with open("stats.json", "w", encoding="utf-8") as f:
             json.dump(stats, f, indent=4)
-            
-        print("stats.json successfully updated with comprehensive data (Public, Private, & Organization context)!")
+        print("stats.json updated successfully!")
+
+        # Otomatis update angka di dalam URL badge README.md
+        readme_path = "README.md"
+        if os.path.exists(readme_path):
+            with open(readme_path, "r", encoding="utf-8") as f:
+                content = f.read()
+
+            content = re.sub(r'(badge/Stars-)\d+(-)', r'\g<1>' + str(stats["contributions"]["total_stars_received"]) + r'\2', content)
+            content = re.sub(r'(badge/Commits-)\d+(-)', r'\g<1>' + str(stats["contributions"]["total_commits"]) + r'\2', content)
+            content = re.sub(r'(badge/Repos-)\d+(-)', r'\g<1>' + str(stats["repositories"]["total_repos"]) + r'\2', content)
+            content = re.sub(r'(badge/PRs-)\d+(-)', r'\g<1>' + str(stats["contributions"]["total_pull_requests"]) + r'\2', content)
+            content = re.sub(r'(badge/Reviews-)\d+(-)', r'\g<1>' + str(stats["contributions"]["pull_request_reviews"]) + r'\2', content)
+            content = re.sub(r'(badge/Issues-)\d+(-)', r'\g<1>' + str(stats["contributions"]["total_issues"]) + r'\2', content)
+
+            with open(readme_path, "w", encoding="utf-8") as f:
+                f.write(content)
+            print("README.md badges updated successfully!")
 
 except urllib.error.HTTPError as e:
     print(f"HTTP Error: {e.code} - {e.reason}")
