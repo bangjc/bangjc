@@ -1,0 +1,28 @@
+{
+  "updated_at": "2026-07-21T22:50:00Z",
+  "profile": {
+    "username": "bangjc",
+    "followers": 0,
+    "following": 0
+  },
+  "repositories": {
+    "public_repos": 0,
+    "private_repos": 0,
+    "total_repos": 0,
+    "contributed_to": 0
+  },
+  "contributions": {
+    "total_commits_last_year": 0,
+    "total_stars_received": 0,
+    "total_pull_requests": 0,
+    "merged_pull_requests": 0,
+    "pull_request_reviews": 0,
+    "total_issues_created": 0,
+    "total_issues_closed": 0
+  },
+  "community": {
+    "discussions_started": 0,
+    "discussions_answered": 0,
+    "public_gists": 0
+  }
+}
