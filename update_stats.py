@@ -17,23 +17,17 @@ headers = {
 graphql_query = {
     "query": """
     query {
-      viewer {
-        followers {
-          totalCount
+        user(login: "%s") {
+            repositories(first: 100, ownerAffiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR]) {
+                totalCount
+                nodes {
+                    isPrivate
+                    stargazerCount
+                }
+            }
         }
-        following {
-          totalCount
-        }
-        repositories(first: 100, affiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR], ownerAffiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR]) {
-          totalCount
-          nodes {
-            isPrivate
-            stargazerCount
-          }
-        }
-      }
     }
-    """
+    """ % username
 }
 req = urllib.request.Request(
     "https://api.github.com/graphql",
