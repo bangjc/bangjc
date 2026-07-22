@@ -18,24 +18,12 @@ graphql_query = {
     "query": """
     query {
       user(login: "%s") {
-        followers {
-          totalCount
-        }
-        following {
-          totalCount
-        }
-        repositories(first: 100, ownerAffiliations: [OWNER, COLLABORATOR, ORGANIZATION_MEMBER]) {
+        repositories(first: 100, ownerAffiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR]) {
           totalCount
           nodes {
             isPrivate
             stargazerCount
           }
-        }
-        contributionsCollection {
-          totalCommitContributions
-          totalPullRequestContributions
-          totalPullRequestReviewContributions
-          totalIssueContributions
         }
       }
     }
