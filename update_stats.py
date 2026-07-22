@@ -71,9 +71,9 @@ try:
         private_repos_count = sum(1 for r in repos if r["isPrivate"])
         total_stars = sum(r["stargazerCount"] for r in repos)
         
-        # Hitung total issues dan PR secara akumulatif dari seluruh repo yang dapat diakses
-        total_issues_count = sum(r["issues"]["totalCount"] for r in repos)
-        total_prs_count = sum(r["pullRequests"]["totalCount"] for r in repos)
+        # Mengambil jumlah issue dan PR dari root level hasil search
+        total_issues_count = result["data"]["issuesCount"]["issueCount"]
+        total_prs_count = result["data"]["prsCount"]["issueCount"]
         
         contributions = data["contributionsCollection"]
         
