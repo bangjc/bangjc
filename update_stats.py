@@ -17,15 +17,15 @@ headers = {
 graphql_query = {
     "query": """
     query {
-      user(login: "%s") {
-        repositories(first: 100, ownerAffiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR]) {
-          totalCount
-          nodes {
-            isPrivate
-            stargazerCount
-          }
+        user(login: "%s") {
+            repositories(first: 100, ownerAffiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR]) {
+            totalCount
+            nodes {
+                isPrivate
+                stargazerCount
+            }
+            }
         }
-      }
     }
     """ % username
 }
