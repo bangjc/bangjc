@@ -5,13 +5,13 @@
         "following": 4
     },
     "repositories": {
-        "total_repos": 8,
+        "total_repos": 14,
         "public_repos": 8,
-        "private_repos": 0
+        "private_repos": 6
     },
     "contributions": {
-        "total_commits": 155,
-        "total_stars_received": 2,
+        "total_commits": 163,
+        "total_stars_received": 3,
         "total_pull_requests": 0,
         "pull_request_reviews": 0,
         "total_issues": 2
