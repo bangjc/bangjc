@@ -29,6 +29,7 @@ graphql_query = {
                 nodes {
                     isPrivate
                     stargazerCount
+                    isFork
                 }
             }
             contributionsCollection {
