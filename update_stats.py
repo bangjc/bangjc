@@ -29,13 +29,13 @@ graphql_query = {
                 nodes {
                     isPrivate
                     stargazerCount
-                    issues(states: [OPEN, CLOSED]) {
-                        totalCount
-                    }
-                    pullRequests(states: [OPEN, CLOSED, MERGED]) {
-                        totalCount
-                    }
                 }
+            }
+            issuesCount: search(query: "type:issue author:@me", type: ISSUE) {
+                issueCount
+            }
+            prsCount: search(query: "type:pr author:@me", type: ISSUE) {
+                issueCount
             }
             contributionsCollection {
                 totalCommitContributions
