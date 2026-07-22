@@ -31,16 +31,16 @@ graphql_query = {
                     stargazerCount
                 }
             }
-            issuesCount: search(query: "type:issue author:@me", type: ISSUE) {
-                issueCount
-            }
-            prsCount: search(query: "type:pr author:@me", type: ISSUE) {
-                issueCount
-            }
             contributionsCollection {
                 totalCommitContributions
                 totalPullRequestReviewContributions
             }
+        }
+        issuesCount: search(query: "type:issue author:@me", type: ISSUE) {
+            issueCount
+        }
+        prsCount: search(query: "type:pr author:@me", type: ISSUE) {
+            issueCount
         }
     }
     """
