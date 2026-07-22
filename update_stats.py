@@ -12,7 +12,7 @@ headers = {
     "Accept": "application/vnd.github+json"
 }
 
-# Query GraphQL untuk menarik repository lengkap beserta jumlah issues dan PR di dalamnya
+# 1. Ambil data user, total repo, dan pastikan kita mengecek username login-nya
 graphql_query = {
     "query": """
     query {
@@ -24,24 +24,34 @@ graphql_query = {
             following {
                 totalCount
             }
-            repositories(first: 200, affiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR], ownerAffiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR]) {
+            repositories(first: 100, affiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR], ownerAffiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR]) {
                 totalCount
                 nodes {
+                    nameWithOwner
                     isPrivate
                     stargazerCount
-                    isFork
+                    issues(states: [OPEN, CLOSED], first: 100) {
+                        totalCount
+                        nodes {
+                            author {
+                                login
+                            }
+                        }
+                    }
+                    pullRequests(states: [OPEN, CLOSED, MERGED], first: 100) {
+                        totalCount
+                        nodes {
+                            author {
+                                login
+                            }
+                        }
+                    }
                 }
             }
             contributionsCollection {
                 totalCommitContributions
                 totalPullRequestReviewContributions
             }
-        }
-        issuesCount: search(query: "type:issue author:@me org:mapitds user:bangjc", type: ISSUE) {
-            issueCount
-        }
-        prsCount: search(query: "type:pr author:@me org:mapitds user:bangjc", type: ISSUE) {
-            issueCount
         }
     }
     """
@@ -70,12 +80,22 @@ try:
         total_repos_count = data["repositories"]["totalCount"]
         public_repos_count = sum(1 for r in repos if not r["isPrivate"])
         private_repos_count = sum(1 for r in repos if r["isPrivate"])
-        fork_repos_count = sum(1 for r in repos if r["isFork"])
         total_stars = sum(r["stargazerCount"] for r in repos)
         
-        # Mengambil jumlah issue dan PR dari root level hasil search
-        total_issues_count = result["data"]["issuesCount"]["issueCount"]
-        total_prs_count = result["data"]["prsCount"]["issueCount"]
+        # 2. Hitung secara spesifik issue & PR yang author-nya adalah username Anda sendiri
+        total_issues_count = 0
+        total_prs_count = 0
+        
+        for repo in repos:
+            # Hitung issues buatan Anda di repo ini
+            for issue in repo["issues"]["nodes"]:
+                if issue["author"] and issue["author"]["login"] == username:
+                    total_issues_count += 1
+            
+            # Hitung PR buatan Anda di repo ini
+            for pr in repo["pullRequests"]["nodes"]:
+                if pr["author"] and pr["author"]["login"] == username:
+                    total_prs_count += 1
         
         contributions = data["contributionsCollection"]
         
