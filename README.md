@@ -47,7 +47,7 @@ Building scalable business systems, automating workflows, and transforming ideas
         </tr>
         <tr style="border: none;">
           <td style="padding: -1px 0; border: none;">🔀 Total Commits</td>
-          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Commits-163-7aa2f7?style=flat-square&logo=git&logoColor=white"/></td>
+          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Commits-166-7aa2f7?style=flat-square&logo=git&logoColor=white"/></td>
         </tr>
         <tr style="border: none;">
           <td style="padding: -1px 0; border: none;">📂 Total Repos </td>
