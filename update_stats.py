@@ -24,11 +24,12 @@ graphql_query = {
             following {
                 totalCount
             }
-            repositories(first: 100, affiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR], ownerAffiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR]) {
+            repositories(first: 200, affiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR], ownerAffiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR]) {
                 totalCount
                 nodes {
                     isPrivate
                     stargazerCount
+                    isFork
                 }
             }
             contributionsCollection {
@@ -36,10 +37,10 @@ graphql_query = {
                 totalPullRequestReviewContributions
             }
         }
-        issuesCount: search(query: "type:issue author:@me", type: ISSUE) {
+        issuesCount: search(query: "type:issue author:@me org:mapitds user:bangjc", type: ISSUE) {
             issueCount
         }
-        prsCount: search(query: "type:pr author:@me", type: ISSUE) {
+        prsCount: search(query: "type:pr author:@me org:mapitds user:bangjc", type: ISSUE) {
             issueCount
         }
     }
@@ -69,6 +70,7 @@ try:
         total_repos_count = data["repositories"]["totalCount"]
         public_repos_count = sum(1 for r in repos if not r["isPrivate"])
         private_repos_count = sum(1 for r in repos if r["isPrivate"])
+        fork_repos_count = sum(1 for r in repos if r["isFork"])
         total_stars = sum(r["stargazerCount"] for r in repos)
         
         # Mengambil jumlah issue dan PR dari root level hasil search
