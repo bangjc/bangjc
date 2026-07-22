@@ -2,7 +2,7 @@
     "profile": {
         "username": "bangjc",
         "followers": 5,
-        "following": 4
+        "following": 9
     },
     "repositories": {
         "total_repos": 14,
@@ -10,7 +10,7 @@
         "private_repos": 6
     },
     "contributions": {
-        "total_commits": 175,
+        "total_commits": 0,
         "total_stars_received": 3,
         "total_pull_requests": 1,
         "pull_request_reviews": 0,
