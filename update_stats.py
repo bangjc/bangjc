@@ -12,7 +12,7 @@ headers = {
     "Accept": "application/vnd.github+json"
 }
 
-# Menggunakan 'viewer' agar token PAT dapat membaca seluruh repo personal & organisasi (publik/private)
+# Query GraphQL untuk menarik repository lengkap beserta jumlah issues dan PR di dalamnya
 graphql_query = {
     "query": """
     query {
@@ -29,14 +29,17 @@ graphql_query = {
                 nodes {
                     isPrivate
                     stargazerCount
-                    isFork
+                    issues(states: [OPEN, CLOSED]) {
+                        totalCount
+                    }
+                    pullRequests(states: [OPEN, CLOSED, MERGED]) {
+                        totalCount
+                    }
                 }
             }
             contributionsCollection {
                 totalCommitContributions
-                totalPullRequestContributions
                 totalPullRequestReviewContributions
-                totalIssueContributions
             }
         }
     }
@@ -61,12 +64,16 @@ try:
         data = result["data"]["viewer"]
         username = data["login"]
         
-        # Ekstraksi metrik
+        # Ekstraksi metrik repository
         repos = data["repositories"]["nodes"]
         total_repos_count = data["repositories"]["totalCount"]
         public_repos_count = sum(1 for r in repos if not r["isPrivate"])
         private_repos_count = sum(1 for r in repos if r["isPrivate"])
         total_stars = sum(r["stargazerCount"] for r in repos)
+        
+        # Hitung total issues dan PR secara akumulatif dari seluruh repo yang dapat diakses
+        total_issues_count = sum(r["issues"]["totalCount"] for r in repos)
+        total_prs_count = sum(r["pullRequests"]["totalCount"] for r in repos)
         
         contributions = data["contributionsCollection"]
         
@@ -85,9 +92,9 @@ try:
             "contributions": {
                 "total_commits": contributions["totalCommitContributions"],
                 "total_stars_received": total_stars,
-                "total_pull_requests": contributions["totalPullRequestContributions"],
+                "total_pull_requests": total_prs_count,
                 "pull_request_reviews": contributions["totalPullRequestReviewContributions"],
-                "total_issues": contributions["totalIssueContributions"]
+                "total_issues": total_issues_count
             }
         }
 
