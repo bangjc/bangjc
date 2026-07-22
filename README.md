@@ -47,7 +47,7 @@ Building scalable business systems, automating workflows, and transforming ideas
         </tr>
         <tr style="border: none;">
           <td style="padding: -1px 0; border: none;">🔀 Total Commits</td>
-          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Commits-166-7aa2f7?style=flat-square&logo=git&logoColor=white"/></td>
+          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Commits-168-7aa2f7?style=flat-square&logo=git&logoColor=white"/></td>
         </tr>
         <tr style="border: none;">
           <td style="padding: -1px 0; border: none;">📂 Total Repos </td>
@@ -55,7 +55,7 @@ Building scalable business systems, automating workflows, and transforming ideas
         </tr>
         <tr style="border: none;">
           <td style="padding: -1px 0; border: none;">🔀 Pull Requests (PR)</td>
-          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/PRs-0-bb9af7?style=flat-square&logo=github&logoColor=white"/></td>
+          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/PRs-1-bb9af7?style=flat-square&logo=github&logoColor=white"/></td>
         </tr>
         <tr style="border: none;">
           <td style="padding: -1px 0; border: none;">💬 PR Reviews</td>
@@ -63,7 +63,7 @@ Building scalable business systems, automating workflows, and transforming ideas
         </tr>
         <tr style="border: none;">
           <td style="padding: -1px 0; border: none;">💡 Issues </td>
-          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Issues-2-f7768e?style=flat-square&logo=github&logoColor=white"/></td>
+          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Issues-8-f7768e?style=flat-square&logo=github&logoColor=white"/></td>
         </tr>
       </table>
     </td>
