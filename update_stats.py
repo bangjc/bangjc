@@ -4,7 +4,6 @@ import urllib.request
 import urllib.error
 import re
 
-username = "bangjc"
 token = os.environ.get("GITHUB_TOKEN")
 
 headers = {
@@ -13,22 +12,36 @@ headers = {
     "Accept": "application/vnd.github+json"
 }
 
-# Query GraphQL untuk mengambil data menyeluruh
+# Menggunakan 'viewer' agar token PAT dapat membaca seluruh repo personal & organisasi (publik/private)
 graphql_query = {
     "query": """
     query {
-        user(login: "%s") {
-            repositories(first: 100, ownerAffiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR]) {
+        viewer {
+            login
+            followers {
+                totalCount
+            }
+            following {
+                totalCount
+            }
+            repositories(first: 100, affiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR], ownerAffiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR]) {
                 totalCount
                 nodes {
                     isPrivate
                     stargazerCount
                 }
             }
+            contributionsCollection {
+                totalCommitContributions
+                totalPullRequestContributions
+                totalPullRequestReviewContributions
+                totalIssueContributions
+            }
         }
     }
-    """ % username
+    """
 }
+
 req = urllib.request.Request(
     "https://api.github.com/graphql",
     data=json.dumps(graphql_query).encode("utf-8"),
@@ -44,7 +57,8 @@ try:
             print("GraphQL Errors:", result["errors"])
             exit(1)
             
-        data = result["data"]["user"]
+        data = result["data"]["viewer"]
+        username = data["login"]
         
         # Ekstraksi metrik
         repos = data["repositories"]["nodes"]
