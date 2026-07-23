@@ -63,7 +63,7 @@ Building scalable business systems, automating workflows, and transforming ideas
         </tr>
         <tr style="border: none;">
           <td style="padding: -1px 0; border: none;">💡 Issues </td>
-          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Issues-5%2F8-f7768e?style=flat-square&logo=github&logoColor=white"/></td>
+          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Issues-3%2F6-f7768e?style=flat-square&logo=github&logoColor=white"/></td>
         </tr>
       </table>
     </td>
