@@ -44,10 +44,14 @@ try:
     total_issues = all_issues_search.get("total_count", 0) if all_issues_search else 0
 
     # Total issue buatan user yang statusnya OPEN saja
-    open_issues_search = fetch_rest(f"https://api.github.com/search/issues?q=type:issue+author:{username}+state:open")
+    open_issues_search = fetch_rest(f"https://api.github.com/search/issues?q=is:issue+state:open+author:{username}+archived:false")
     open_issues = open_issues_search.get("total_count", 0) if open_issues_search else 0
 
-    # Format string Open / Total (misal: "5/1900" atau tersimpan sebagai teks/angka)
+    # Total keseluruhan issue (open + closed) dengan filter archived:false
+    all_issues_search = fetch_rest(f"https://api.github.com/search/issues?q=is:issue+author:{username}+archived:false")
+    total_issues = all_issues_search.get("total_count", 0) if all_issues_search else 0
+
+    # Format string Open / Total (misal: 40/total_keseluruhan)
     issues_display = f"{open_issues}/{total_issues}"
 
     # Sama halnya untuk PR jika ingin format serupa (opsional, di sini kita ambil total PR biasa)
