@@ -38,17 +38,16 @@ try:
     private_repos_count = sum(1 for r in repos_data if r.get("private", True)) if repos_data else 0
     total_stars = sum(r.get("stargazers_count", 0) for r in repos_data) if repos_data else 0
 
-    # 3. Gunakan username secara eksplisit, bukan @me, karena ini REST API
-    # Total issue open
-    open_url = f"https://api.github.com/search/issues?q=is:issue+state:open+author:{username}+archived:false"
-    open_issues_search = fetch_rest(open_url)
-    open_issues = open_issues_search.get("total_count", 0) if open_issues_search else 0
-
-    # Total keseluruhan issue (open + closed)
-    all_url = f"https://api.github.com/search/issues?q=is:issue+author:{username}+archived:false"
-    all_issues_search = fetch_rest(all_url)
+    # 3. Hitung Total Issue & PR secara keseluruhan vs yang berstatus OPEN
+    # Total keseluruhan issue buatan user
+    all_issues_search = fetch_rest(f"https://api.github.com/search/issues?q=type:issue+author:{username}")
     total_issues = all_issues_search.get("total_count", 0) if all_issues_search else 0
 
+    # Total issue buatan user yang statusnya OPEN saja
+    open_issues_search = fetch_rest(f"https://api.github.com/search/issues?q=type:issue+author:{username}+state:open")
+    open_issues = open_issues_search.get("total_count", 0) if open_issues_search else 0
+
+    # Format string Open / Total (misal: "5/1900" atau tersimpan sebagai teks/angka)
     issues_display = f"{open_issues}/{total_issues}"
 
     # Sama halnya untuk PR jika ingin format serupa (opsional, di sini kita ambil total PR biasa)
