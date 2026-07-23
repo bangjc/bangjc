@@ -22,7 +22,7 @@ def fetch_rest(url):
         return None
 
 try:
-    # 1. Ambil data User info (followers, following, login) via REST
+    # 1. Ambil data User info
     user_data = fetch_rest("https://api.github.com/user")
     if not user_data:
         exit(1)
@@ -31,18 +31,26 @@ try:
     followers = user_data["followers"]
     following = user_data["following"]
 
-    # 2. Ambil data Repositories (untuk hitung total repo & stars)
+    # 2. Ambil data Repositories
     repos_data = fetch_rest("https://api.github.com/user/repos?per_page=100&affiliation=owner,organization_member,collaborator")
     total_repos_count = len(repos_data) if repos_data else 0
     public_repos_count = sum(1 for r in repos_data if not r.get("private", False)) if repos_data else 0
     private_repos_count = sum(1 for r in repos_data if r.get("private", True)) if repos_data else 0
     total_stars = sum(r.get("stargazers_count", 0) for r in repos_data) if repos_data else 0
 
-    # 3. Hitung akurat Issue & PR menggunakan GitHub Search API (Mendukung ribuan data & private org!)
-    # q=type:issue author:USERNAME
-    issues_search = fetch_rest(f"https://api.github.com/search/issues?q=type:issue+author:{username}")
-    total_issues_count = issues_search.get("total_count", 0) if issues_search else 0
+    # 3. Hitung Total Issue & PR secara keseluruhan vs yang berstatus OPEN
+    # Total keseluruhan issue buatan user
+    all_issues_search = fetch_rest(f"https://api.github.com/search/issues?q=type:issue+author:{username}")
+    total_issues = all_issues_search.get("total_count", 0) if all_issues_search else 0
 
+    # Total issue buatan user yang statusnya OPEN saja
+    open_issues_search = fetch_rest(f"https://api.github.com/search/issues?q=type:issue+author:{username}+state:open")
+    open_issues = open_issues_search.get("total_count", 0) if open_issues_search else 0
+
+    # Format string Open / Total (misal: "5/1900" atau tersimpan sebagai teks/angka)
+    issues_display = f"{open_issues}/{total_issues}"
+
+    # Sama halnya untuk PR jika ingin format serupa (opsional, di sini kita ambil total PR biasa)
     prs_search = fetch_rest(f"https://api.github.com/search/issues?q=type:pr+author:{username}")
     script_total_prs = prs_search.get("total_count", 0) if prs_search else 0
 
@@ -59,18 +67,18 @@ try:
             "private_repos": private_repos_count
         },
         "contributions": {
-            "total_commits": 0, # Bisa disesuaikan jika ingin pakai kontribusi lain
+            "total_commits": 0,
             "total_stars_received": total_stars,
             "total_pull_requests": script_total_prs,
             "pull_request_reviews": 0,
-            "total_issues": total_issues_count
+            "total_issues": issues_display  # Format "Open/Total"
         }
     }
 
     # Simpan ke stats.json
     with open("stats.json", "w", encoding="utf-8") as f:
         json.dump(stats, f, indent=4)
-    print(f"stats.json updated successfully! Issues found: {total_issues_count}")
+    print(f"stats.json updated successfully! Issues (Open/Total): {issues_display}")
 
     # Otomatis update angka di dalam URL badge README.md
     readme_path = "README.md"
@@ -81,7 +89,9 @@ try:
         content = re.sub(r'(badge/Stars-)\d+(-)', r'\g<1>' + str(stats["contributions"]["total_stars_received"]) + r'\2', content)
         content = re.sub(r'(badge/Repos-)\d+(-)', r'\g<1>' + str(stats["repositories"]["total_repos"]) + r'\2', content)
         content = re.sub(r'(badge/PRs-)\d+(-)', r'\g<1>' + str(stats["contributions"]["total_pull_requests"]) + r'\2', content)
-        content = re.sub(r'(badge/Issues-)\d+(-)', r'\g<1>' + str(stats["contributions"]["total_issues"]) + r'\2', content)
+        
+        # Untuk badge Issues yang berupa teks gabungan (Open/Total), sesuaikan penggantian registernya:
+        content = re.sub(r'(badge/Issues-)[^?-]+(-)', r'\g<1>' + str(issues_display).replace('/', '%2F') + r'\2', content)
 
         with open(readme_path, "w", encoding="utf-8") as f:
             f.write(content)
