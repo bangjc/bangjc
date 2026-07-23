@@ -40,12 +40,18 @@ try:
 
     # 3. Hitung Total Issue & PR secara keseluruhan vs yang berstatus OPEN
     # Total keseluruhan issue buatan user
-    all_issues_search = fetch_rest(f"https://api.github.com/search/issues?q=type:issue+author:{username}")
-    total_issues = all_issues_search.get("total_count", 0) if all_issues_search else 0
+    open_url = f"https://api.github.com/search/issues?q=is:issue+state:open+author:{username}+user:{username}"
+    open_issues_search = fetch_rest(open_url)
+    open_issues = open_issues_search.get("total_count", 0) if open_issues_search else 0
+    # all_issues_search = fetch_rest(f"https://api.github.com/search/issues?q=type:issue+author:{username}")
+    # total_issues = all_issues_search.get("total_count", 0) if all_issues_search else 0
 
     # Total issue buatan user yang statusnya OPEN saja
-    open_issues_search = fetch_rest(f"https://api.github.com/search/issues?q=type:issue+author:{username}+state:open")
-    open_issues = open_issues_search.get("total_count", 0) if open_issues_search else 0
+    all_url = f"https://api.github.com/search/issues?q=is:issue+author:{username}+user:{username}"
+    all_issues_search = fetch_rest(all_url)
+    total_issues = all_issues_search.get("total_count", 0) if all_issues_search else 0
+    # open_issues_search = fetch_rest(f"https://api.github.com/search/issues?q=type:issue+author:{username}+state:open")
+    # open_issues = open_issues_search.get("total_count", 0) if open_issues_search else 0
 
     # Format string Open / Total (misal: "5/1900" atau tersimpan sebagai teks/angka)
     issues_display = f"{open_issues}/{total_issues}"
