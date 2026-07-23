@@ -37,40 +37,25 @@ Building scalable business systems, automating workflows, and transforming ideas
 
   ---
 
-<table align="center" style="border-collapse: collapse; borders: none;">
+<table align="center" style="border-collapse: collapse; border: none;">
   <tr>
-    <td style="padding: -1px; border: none; background-color: #1a1b26; border-radius: -1px;">
-      <table width="420" style="background-color: #1a1b26; border-radius: -1px; padding: -1px -1px; color: #c0caf5; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; border-collapse: collapse; border: none; margin: -1px;">
-        <tr style="border: none;">
-          <td style="padding: -1px 0; border: none;">⭐ Total Stars</td>
-          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Stars-4-9ece6a?style=flat-square&logo=github&logoColor=white"/></td>
-        </tr>
-        <tr style="border: none;">
-          <td style="padding: -1px 0; border: none;">🔀 Total Commits</td>
-          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Commits-175-7aa2f7?style=flat-square&logo=git&logoColor=white"/></td>
-        </tr>
-        <tr style="border: none;">
-          <td style="padding: -1px 0; border: none;">📂 Total Repos </td>
-          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Repos-18-e0af68?style=flat-square&logo=codeforces&logoColor=white"/></td>
-        </tr>
-        <tr style="border: none;">
-          <td style="padding: -1px 0; border: none;">🔀 Pull Requests (PR)</td>
-          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/PRs-11-bb9af7?style=flat-square&logo=github&logoColor=white"/></td>
-        </tr>
-        <tr style="border: none;">
-          <td style="padding: -1px 0; border: none;">💬 PR Reviews</td>
-          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Reviews-0-7dcfff?style=flat-square&logo=github&logoColor=white"/></td>
-        </tr>
-        <tr style="border: none;">
-          <td style="padding: -1px 0; border: none;">💡 Issues </td>
-          <td align="right" style="padding: -1px 0; border: none;"><img src="https://img.shields.io/badge/Issues-43%2F1873-f7768e?style=flat-square&logo=github&logoColor=white"/></td>
-        </tr>
-      </table>
+    <td colspan="2" align="center" style="padding: 10px; border: none; vertical-align: middle; text-align: center;">
+      <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
+        <img height="36" src="https://img.shields.io/badge/Stars-4-9ece6a?style=for-the-badge&logo=github&logoColor=white"/>
+        <img height="36" src="https://img.shields.io/badge/Commits-175-7aa2f7?style=for-the-badge&logo=git&logoColor=white"/>
+        <img height="36" src="https://img.shields.io/badge/Repos-18-e0af68?style=for-the-badge&logo=codeforces&logoColor=white"/>
+        <img height="36" src="https://img.shields.io/badge/PRs-11-bb9af7?style=for-the-badge&logo=github&logoColor=white"/>
+        <img height="36" src="https://img.shields.io/badge/Reviews-0-7dcfff?style=for-the-badge&logo=github&logoColor=white"/>
+        <img height="36" src="https://img.shields.io/badge/Issues-43%2F1873-f7768e?style=for-the-badge&logo=github&logoColor=white"/>
+      </div>
     </td>
-    <td style="padding: -1px; border: none; text-align: center;">
-      <img src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto -1px auto;" />
-      <br>
-      <img src="https://github-readme-stats-bangjc.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
+  </tr>
+  <tr>
+    <td style="padding: 0px; border: none; text-align: center;">
+      <img width="420" src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
+    </td>
+    <td style="padding: 0px; border: none; text-align: center;">
+      <img width="420" src="https://github-readme-stats-bangjc.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
     </td>
   </tr>
 </table>
