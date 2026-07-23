@@ -54,7 +54,26 @@ try:
     prs_search = fetch_rest(f"https://api.github.com/search/issues?q=type:pr+author:{username}")
     script_total_prs = prs_search.get("total_count", 0) if prs_search else 0
 
-    # 4. Susun data JSON
+    # 4. Ambil data Bahasa Pemrograman dari semua Repositories (Personal & Organisasi)
+    language_counts = {}
+    if repos_data:
+        for repo in repos_data:
+            langs_url = repo.get("languages_url")
+            if langs_url:
+                langs_data = fetch_rest(langs_url)
+                if langs_data:
+                    for lang, bytes_count in langs_data.items():
+                        language_counts[lang] = language_counts.get(lang, 0) + bytes_count
+
+    total_bytes = sum(language_counts.values())
+    language_percentages = {}
+    if total_bytes > 0:
+        sorted_langs = sorted(language_counts.items(), key=lambda x: x[1], reverse=True)
+        for lang, bytes_count in sorted_langs:
+            percentage = (bytes_count / total_bytes) * 100
+            language_percentages[lang] = round(percentage, 2)
+            
+    # 5. Susun data JSON
     stats = {
         "profile": {
             "username": username,
@@ -72,33 +91,9 @@ try:
             "total_pull_requests": script_total_prs,
             "pull_request_reviews": 0,
             "total_issues": issues_display  # Format "Open/Total"
-        }
-        # "languages": language_percentages
+        },
+        "languages": language_percentages
     }
-    
-    # 5. Ambil data Bahasa Pemrograman dari semua Repositories
-    # language_counts = {}
-    
-    # if repos_data:
-    #     for repo in repos_data:
-    #         # Lewatkan jika repo fork atau kosong (opsional, sesuaikan kebutuhan)
-    #         langs_url = repo.get("languages_url")
-    #         if langs_url:
-    #             langs_data = fetch_rest(langs_url)
-    #             if langs_data:
-    #                 for lang, bytes_count in langs_data.items():
-    #                     language_counts[lang] = language_counts.get(lang, 0) + bytes_count
-
-    # # Hitung total bytes semua bahasa untuk dijadikan persentase
-    # total_bytes = sum(language_counts.values())
-    # language_percentages = {}
-    
-    # if total_bytes > 0:
-    #     # Urutkan dari bahasa yang paling banyak digunakan ke yang paling sedikit
-    #     sorted_langs = sorted(language_counts.items(), key=lambda x: x[1], reverse=True)
-    #     for lang, bytes_count in sorted_langs:
-    #         percentage = (bytes_count / total_bytes) * 100
-    #         language_percentages[lang] = round(percentage, 2) # Dibulatkan 2 desimal
 
     # Simpan ke stats.json
     with open("stats.json", "w", encoding="utf-8") as f:
