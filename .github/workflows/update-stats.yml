@@ -9,7 +9,8 @@ on:
       - main
 
 jobs:
-  build:
+  # build:
+  update:
     runs-on: ubuntu-latest
     permissions:
       contents: write # Diperlukan agar action bisa melakukan commit otomatis ke repo
