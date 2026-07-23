@@ -14,17 +14,25 @@
         "total_stars_received": 4,
         "total_pull_requests": 11,
         "pull_request_reviews": 0,
-        "total_issues": "43/1872"
+        "total_issues": "43/1873"
     },
     "languages": {
-        "Python": 0.0,
-        "JavaScript": 0.0,
-        "HTML": 0.0,
-        "CSS": 0.0,
-        "Jupyter Notebook": 0.0,
-        "Shell": 0.0,
-        "C++": 0.0,
-        "C#": 0.0,
-        "TypeScript": 0.0
+        "Python": 48.55,
+        "JavaScript": 38.19,
+        "HTML": 4.46,
+        "Java": 4.16,
+        "SCSS": 2.61,
+        "CSS": 1.11,
+        "Less": 0.32,
+        "XSLT": 0.31,
+        "Shell": 0.13,
+        "PHP": 0.06,
+        "NSIS": 0.03,
+        "Makefile": 0.03,
+        "Batchfile": 0.02,
+        "Sass": 0.02,
+        "PowerShell": 0.0,
+        "Ruby": 0.0,
+        "Vim Script": 0.0
     }
 }
