@@ -38,22 +38,39 @@ try:
     private_repos_count = sum(1 for r in repos_data if r.get("private", True)) if repos_data else 0
     total_stars = sum(r.get("stargazers_count", 0) for r in repos_data) if repos_data else 0
 
-    # 3. Hitung Total Issue & PR secara keseluruhan vs yang berstatus OPEN
-    # Total keseluruhan issue buatan user
-    open_url = f"https://api.github.com/issues/search?q=is:issue+state:open+author:{username}+user:{username}"
-    open_issues_search = fetch_rest(open_url)
-    open_issues = open_issues_search.get("total_count", 0) if open_issues_search else 0
-    # all_issues_search = fetch_rest(f"https://api.github.com/search/issues?q=type:issue+author:{username}")
-    # total_issues = all_issues_search.get("total_count", 0) if all_issues_search else 0
+    # 3. Hitung Total Issue menggunakan GraphQL API (jauh lebih akurat untuk private org & @me)
+    graphql_query = """
+    query {
+        openIssues: search(query: "is:issue state:open author:@me archived:false", type: ISSUE) {
+            issueCount
+        }
+        totalIssues: search(query: "is:issue author:@me archived:false", type: ISSUE) {
+            issueCount
+        }
+        totalPRs: search(query: "is:pr author:@me archived:false", type: ISSUE) {
+            issueCount
+        }
+        }
+    """
+    
+    gql_req = urllib.request.Request(
+        "https://api.github.com/graphql",
+        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+        data=json.dumps({"query": graphql_query}).encode("utf-8"),
+        method="POST"
+    )
+    
+    try:
+        with urllib.request.urlopen(gql_req) as response:
+            gql_result = json.loads(response.read().decode())
+            data = gql_result.get("data", {})
+            open_issues = data.get("openIssues", {}).get("issueCount", 0)
+            total_issues = data.get("totalIssues", {}).get("issueCount", 0)
+            script_total_prs = data.get("totalPRs", {}).get("issueCount", 0)
+    except Exception as e:
+        print(f"GraphQL Error: {e}")
+        open_issues, total_issues, script_total_prs = 0, 0, 0
 
-    # Total issue buatan user yang statusnya OPEN saja
-    all_url = f"https://api.github.com/issues/search?q=is:issue+author:{username}+user:{username}"
-    all_issues_search = fetch_rest(all_url)
-    total_issues = all_issues_search.get("total_count", 0) if all_issues_search else 0
-    # open_issues_search = fetch_rest(f"https://api.github.com/search/issues?q=type:issue+author:{username}+state:open")
-    # open_issues = open_issues_search.get("total_count", 0) if open_issues_search else 0
-
-    # Format string Open / Total (misal: "5/1900" atau tersimpan sebagai teks/angka)
     issues_display = f"{open_issues}/{total_issues}"
 
     # Sama halnya untuk PR jika ingin format serupa (opsional, di sini kita ambil total PR biasa)
