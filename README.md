@@ -45,7 +45,7 @@ Building scalable business systems, automating workflows, and transforming ideas
         <img height="36" src="https://img.shields.io/badge/Repos-19-e0af68?style=for-the-badge&logo=codeforces&logoColor=white"/>
         <img height="36" src="https://img.shields.io/badge/PRs-11-bb9af7?style=for-the-badge&logo=github&logoColor=white"/>
         <img height="36" src="https://img.shields.io/badge/Reviews-0-7dcfff?style=for-the-badge&logo=github&logoColor=white"/>
-        <img height="36" src="https://img.shields.io/badge/Issues-43%2F1874-f7768e?style=for-the-badge&logo=github&logoColor=white"/>
+        <img height="36" src="https://img.shields.io/badge/Issues-44%2F1875-f7768e?style=for-the-badge&logo=github&logoColor=white"/>
       </div>
     </td>
   </tr>
