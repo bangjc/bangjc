@@ -5,16 +5,16 @@
         "following": 9
     },
     "repositories": {
-        "total_repos": 18,
+        "total_repos": 19,
         "public_repos": 8,
-        "private_repos": 10
+        "private_repos": 11
     },
     "contributions": {
         "total_commits": 0,
         "total_stars_received": 4,
         "total_pull_requests": 11,
         "pull_request_reviews": 0,
-        "total_issues": "43/1873"
+        "total_issues": "42/1873"
     },
     "languages": {
         "Python": 48.55,
@@ -31,6 +31,7 @@
         "Makefile": 0.03,
         "Batchfile": 0.02,
         "Sass": 0.02,
+        "TypeScript": 0.0,
         "PowerShell": 0.0,
         "Ruby": 0.0,
         "Vim Script": 0.0
