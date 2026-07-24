@@ -1,5 +1,9 @@
 <h1 align="center">Hi 👋, I'm <b>Jenius Calvin</b></h1>
-<p align="center">▼</p>
+<p align="center">
+  🟢 <b>Status :</b> <i>Open to work</i> ▶️ [ <b>Odoo Development-System Build-IT Infrastructur-Freelance</b> ]<br>
+  <!-- 🔴 Currently focused on internal projects <br>-->
+  ▼<br>
+</p>
 
 <p align="center">
 <b>System Development • IT Department Head • Odoo Developer</b><br>
@@ -29,12 +33,7 @@ Building scalable business systems, automating workflows, and transforming ideas
 
 <p align="center">
 <i>"Building systems that make people work smarter, not harder."</i>
-
-<p align="center">
-  🟢 <b>Status:</b> Open to discuss automation, Odoo, and system integration projects,
-  <!-- 🔴 Currently focused on internal projects -->
-</p>
-
+  
   ---
 
 <table align="center" style="border-collapse: collapse; border: none;">
