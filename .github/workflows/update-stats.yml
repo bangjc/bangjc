@@ -2,7 +2,7 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Berjalan otomatis setiap hari jam 00:00 UTC
+    - cron: '0 */8 * * *' # Berjalan otomatis setiap hari jam 00:00 UTC
   workflow_dispatch: {} # Memungkinkan tombol run manual di tab Actions
   push:
     branches:
