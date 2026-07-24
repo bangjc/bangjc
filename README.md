@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm <b>Jenius Calvin</b></h1>
 <p align="center">
-  🟢 <b>Status :</b> <i>Open to work</i> ▶️ [ <b>Odoo Development-System Build-IT Infrastructur-Freelance</b> ]<br>
+  🟢 <b>Status :</b> <i>Open to work</i> <br>[ <b>• Odoo Development • System Build • IT Infrastructur • Freelance •</b> ]<br>
   <!-- 🔴 Currently focused on internal projects <br>-->
   ▼<br>
 </p>
