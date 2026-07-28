@@ -39,13 +39,13 @@ Building scalable business systems, automating workflows, and transforming ideas
 <table align="center" style="border-collapse: collapse; border: none;">
   <tr>
     <td colspan="2" align="center" style="padding: 10px; border: none; vertical-align: middle; text-align: center;">
-      <div style="display: flex; flex-direction: column; gap: 4px; align-items: center;">
-        <img src="https://img.shields.io/badge/Stars-4-9ece6a?style=for-the-badge&logo=github&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Commits-175-7aa2f7?style=for-the-badge&logo=git&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Repos-19-e0af68?style=for-the-badge&logo=codeforces&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PRs-13-bb9af7?style=for-the-badge&logo=github&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Reviews-0-7dcfff?style=for-the-badge&logo=github&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Issues-41%2F1877-f7768e?style=for-the-badge&logo=github&logoColor=white"/>
+      <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
+        <img height="36" src="https://img.shields.io/badge/Stars-4-9ece6a?style=for-the-badge&logo=github&logoColor=white"/>
+        <img height="36" src="https://img.shields.io/badge/Commits-175-7aa2f7?style=for-the-badge&logo=git&logoColor=white"/>
+        <img height="36" src="https://img.shields.io/badge/Repos-19-e0af68?style=for-the-badge&logo=codeforces&logoColor=white"/>
+        <img height="36" src="https://img.shields.io/badge/PRs-13-bb9af7?style=for-the-badge&logo=github&logoColor=white"/>
+        <img height="36" src="https://img.shields.io/badge/Reviews-0-7dcfff?style=for-the-badge&logo=github&logoColor=white"/>
+        <img height="36" src="https://img.shields.io/badge/Issues-41%2F1877-f7768e?style=for-the-badge&logo=github&logoColor=white"/>
       </div>
     </td>
   </tr>
