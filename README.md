@@ -15,13 +15,13 @@ Building scalable business systems, automating workflows, and transforming ideas
 
 <p align="center">
   <a href="https://www.linkedin.com/in/jenius-calvin/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://t.me/care_sys">
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
   </a>
   <a href="mailto:jeniuscalvin@email.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" />
   </a>
 </p>
 
@@ -40,12 +40,12 @@ Building scalable business systems, automating workflows, and transforming ideas
   <tr>
     <td colspan="2" align="center" style="padding: 10px; border: none; vertical-align: middle; text-align: center;">
       <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
-        <img height="36" src="https://img.shields.io/badge/Stars-4-9ece6a?style=for-the-badge&logo=github&logoColor=white"/>
-        <img height="36" src="https://img.shields.io/badge/Commits-175-7aa2f7?style=for-the-badge&logo=git&logoColor=white"/>
-        <img height="36" src="https://img.shields.io/badge/Repos-19-e0af68?style=for-the-badge&logo=codeforces&logoColor=white"/>
-        <img height="36" src="https://img.shields.io/badge/PRs-13-bb9af7?style=for-the-badge&logo=github&logoColor=white"/>
-        <img height="36" src="https://img.shields.io/badge/Reviews-0-7dcfff?style=for-the-badge&logo=github&logoColor=white"/>
-        <img height="36" src="https://img.shields.io/badge/Issues-41%2F1877-f7768e?style=for-the-badge&logo=github&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Stars-4-9ece6a?style=for-the-badge&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/Commits-175-7aa2f7?style=for-the-badge&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/Repos-19-e0af68?style=for-the-badge&logo=codeforces&logoColor=white" />
+        <img src="https://img.shields.io/badge/PRs-13-bb9af7?style=for-the-badge&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/Reviews-0-7dcfff?style=for-the-badge&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/Issues-41%2F1877-f7768e?style=for-the-badge&logo=github&logoColor=white" />
       </div>
     </td>
   </tr>
@@ -69,12 +69,12 @@ Building scalable business systems, automating workflows, and transforming ideas
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Odoo-7A1FA2?logo=odoo&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/AppSheet-4285F4?logo=google&logoColor=white"/>
-<img src="https://img.shields.io/badge/Google%20Sheets-34A853?logo=googlesheets&logoColor=white"/>
-<img src="https://img.shields.io/badge/Apps%20Script-4285F4?logo=google&logoColor=white"/>
-<img src="https://img.shields.io/badge/XML-E34F26"/>
+<img src="https://img.shields.io/badge/Odoo-7A1FA2?logo=odoo&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/AppSheet-4285F4?logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/Google%20Sheets-34A853?logo=googlesheets&logoColor=white" />
+<img src="https://img.shields.io/badge/Apps%20Script-4285F4?logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/XML-E34F26" />
 </p>
 
 ---
@@ -82,11 +82,11 @@ Building scalable business systems, automating workflows, and transforming ideas
 <h2 align="center">🚀 Featured Projects</h2>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Automation_Scripts-orange?style=flat-square"/>
-<img src="https://img.shields.io/badge/Odoo_Modules-purple?style=flat-square"/>
-<img src="https://img.shields.io/badge/Executive_Dashboard-blue?style=flat-square"/>
-<img src="https://img.shields.io/badge/AppSheet_Solutions-green?style=flat-square"/>
-<img src="https://img.shields.io/badge/Digital_SOP-red?style=flat-square"/><br>
+<img src="https://img.shields.io/badge/Automation_Scripts-orange?style=flat-square" />
+<img src="https://img.shields.io/badge/Odoo_Modules-purple?style=flat-square" />
+<img src="https://img.shields.io/badge/Executive_Dashboard-blue?style=flat-square" />
+<img src="https://img.shields.io/badge/AppSheet_Solutions-green?style=flat-square" />
+<img src="https://img.shields.io/badge/Digital_SOP-red?style=flat-square" /><br>
   
   <a href="https://github.com/bangjc/sheet-to-github-issues">
     <img width="230" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=sheet-to-github-issues&theme=tokyonight&hide_border=true" />
