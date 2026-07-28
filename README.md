@@ -39,8 +39,7 @@ Building scalable business systems, automating workflows, and transforming ideas
 <table align="center" style="border-collapse: collapse; border: none; table-layout: fixed;">
   <tr>
     <td colspan="2" align="center" style="border: none; padding: 4px;">
-      <!-- <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;"> -->
-        <p align="center"><b>▼ My Github Stats ▼</b></p>
+      <p align="center"><b>▼ My Github Stats ▼</b></p>
         <img height="28" src="https://img.shields.io/badge/Stars-4-9ece6a?style=for-the-badge&logo=github&logoColor=white" />
         <img height="28" src="https://img.shields.io/badge/Commits-175-7aa2f7?style=for-the-badge&logo=git&logoColor=white" />
         <img height="28" src="https://img.shields.io/badge/Repos-19-e0af68?style=for-the-badge&logo=codeforces&logoColor=white" />
