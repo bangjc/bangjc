@@ -14,13 +14,13 @@ Building scalable business systems, automating workflows, and transforming ideas
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/jenius-calvin/">
+  <a href="https://www.linkedin.com/in/jenius-calvin/" >
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://t.me/care_sys">
+  <a href="https://t.me/care_sys" >
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
   </a>
-  <a href="mailto:jeniuscalvin@email.com">
+  <a href="mailto:jeniuscalvin@email.com" >
     <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" />
   </a>
 </p>
@@ -88,13 +88,13 @@ Building scalable business systems, automating workflows, and transforming ideas
 <img src="https://img.shields.io/badge/AppSheet_Solutions-green?style=flat-square" />
 <img src="https://img.shields.io/badge/Digital_SOP-red?style=flat-square" /><br>
   
-  <a href="https://github.com/bangjc/sheet-to-github-issues">
+  <a href="https://github.com/bangjc/sheet-to-github-issues" >
     <img width="230" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=sheet-to-github-issues&theme=tokyonight&hide_border=true" />
   </a>
-  <a href="https://github.com/bangjc/Google-Form-Approval-System">
+  <a href="https://github.com/bangjc/Google-Form-Approval-System" >
     <img width="230" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=Google-Form-Approval-System&theme=tokyonight&hide_border=true" />
   </a>
-  <a href="https://github.com/bangjc/web-audit-cli">
+  <a href="https://github.com/bangjc/web-audit-cli" >
     <img width="230" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=web-audit-cli&theme=tokyonight&hide_border=true" />
   </a>
 </p>
@@ -110,8 +110,8 @@ Building scalable business systems, automating workflows, and transforming ideas
 </p>
 
 <p align="center">       
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bangjc&theme=tokyo-night"/>
-  <img src="https://komarev.com/ghpvc/?username=bangjc&style=flat-square"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bangjc&theme=tokyo-night" />
+  <img src="https://komarev.com/ghpvc/?username=bangjc&style=flat-square" />
 </p>
 <p align="center">
   <i>Thanks for stopping by — let's connect and build something great together!</i>
