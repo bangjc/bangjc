@@ -36,7 +36,7 @@ Building scalable business systems, automating workflows, and transforming ideas
   
   ---
 
-<table align="center" style="border-collapse: collapse; border: none;">
+<table align="center" style="border-collapse: collapse; border: none; width: 100%;">
   <tr>
     <td colspan="2" align="center" style="padding: 10px; border: none; vertical-align: middle; text-align: center;">
       <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
@@ -50,11 +50,11 @@ Building scalable business systems, automating workflows, and transforming ideas
     </td>
   </tr>
   <tr>
-    <td style="padding: 0px; border: none; text-align: center;">
-      <img width="480" src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
+    <td style="padding: 0px; border: none; text-align: center; width: 50%;">
+      <img src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
     </td>
-    <td style="padding: 0px; border: none; text-align: center;">
-      <img width="480" src="https://github-readme-stats-bangjc.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
+    <td style="padding: 0px; border: none; text-align: center; width: 50%;">
+      <img src="https://github-readme-stats-bangjc.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
     </td>
   </tr>
 </table>
