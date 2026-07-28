@@ -36,9 +36,9 @@ Building scalable business systems, automating workflows, and transforming ideas
   
   ---
 
-<table align="center" style="border-collapse: collapse; border: none;">
+<table align="center" style="border-collapse: collapse; border: none; width: 100%;">
   <tr>
-    <td colspan="2" align="center" style="padding: 10px; border: none; vertical-align: middle; text-align: center;">
+    <td colspan="2" align="center" style="border: none; padding: 5px; white-space: nowrap; overflow-x: auto;">
       <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
         <p align="center"><b>▼ My Github Stats ▼</b></p>
         <img src="https://img.shields.io/badge/Stars-4-9ece6a?style=for-the-badge&logo=github&logoColor=white" />
