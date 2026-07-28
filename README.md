@@ -75,21 +75,6 @@ Building scalable business systems, automating workflows, and transforming ideas
 
 ---
 
-<!-- <h2 align="center">🛠 Tech Stack</h2>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,git,github,vscode" />
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Odoo-7A1FA2?logo=odoo&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/AppSheet-4285F4?logo=google&logoColor=white" />
-<img src="https://img.shields.io/badge/Google%20Sheets-34A853?logo=googlesheets&logoColor=white" />
-<img src="https://img.shields.io/badge/Apps%20Script-4285F4?logo=google&logoColor=white" />
-<img src="https://img.shields.io/badge/XML-E34F26" />
-</p> -->
-
 <h2 align="center">🚀 Featured Projects</h2>
 
 <p align="center">
