@@ -38,15 +38,15 @@ Building scalable business systems, automating workflows, and transforming ideas
 
 <table align="center" style="border-collapse: collapse; border: none; width: 100%;">
   <tr>
-    <td colspan="2" align="center" style="border: none; padding: 5px; white-space: nowrap; overflow-x: auto;">
+    <td colspan="2" align="center" style="border: none; padding: 4px;">
       <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
         <p align="center"><b>▼ My Github Stats ▼</b></p>
-        <img src="https://img.shields.io/badge/Stars-4-9ece6a?style=for-the-badge&logo=github&logoColor=white" />
-        <img src="https://img.shields.io/badge/Commits-175-7aa2f7?style=for-the-badge&logo=git&logoColor=white" />
-        <img src="https://img.shields.io/badge/Repos-19-e0af68?style=for-the-badge&logo=codeforces&logoColor=white" />
-        <img src="https://img.shields.io/badge/PRs-13-bb9af7?style=for-the-badge&logo=github&logoColor=white" />
-        <img src="https://img.shields.io/badge/Reviews-0-7dcfff?style=for-the-badge&logo=github&logoColor=white" />
-        <img src="https://img.shields.io/badge/Issues-38%2F1877-f7768e?style=for-the-badge&logo=github&logoColor=white" />
+        <img height="28" src="https://img.shields.io/badge/Stars-4-9ece6a?style=for-the-badge&logo=github&logoColor=white" />
+        <img height="28" src="https://img.shields.io/badge/Commits-175-7aa2f7?style=for-the-badge&logo=git&logoColor=white" />
+        <img height="28" src="https://img.shields.io/badge/Repos-19-e0af68?style=for-the-badge&logo=codeforces&logoColor=white" />
+        <img height="28" src="https://img.shields.io/badge/PRs-13-bb9af7?style=for-the-badge&logo=github&logoColor=white" />
+        <img height="28" src="https://img.shields.io/badge/Reviews-0-7dcfff?style=for-the-badge&logo=github&logoColor=white" />
+        <img height="28" src="https://img.shields.io/badge/Issues-38%2F1877-f7768e?style=for-the-badge&logo=github&logoColor=white" />
       </div>
     </td>
   </tr>
