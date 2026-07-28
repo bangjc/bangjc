@@ -48,10 +48,6 @@ Building scalable business systems, automating workflows, and transforming ideas
         <img height="28" src="https://img.shields.io/badge/Reviews-0-7dcfff?style=for-the-badge&logo=github&logoColor=white" />
         <img height="28" src="https://img.shields.io/badge/Issues-38%2F1877-f7768e?style=for-the-badge&logo=github&logoColor=white" />
       </p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center" style="padding: 10px; border: none; vertical-align: middle; text-align: center;">
       <p align="center"><b>🛠 Tech Stack</b><br>
         <img src="https://skillicons.dev/icons?i=python,git,github,vscode" /><br>
         <img src="https://img.shields.io/badge/Odoo-7A1FA2?logo=odoo&logoColor=white" />
