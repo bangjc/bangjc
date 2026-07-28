@@ -36,7 +36,7 @@ Building scalable business systems, automating workflows, and transforming ideas
   
   ---
 
-<table align="center" style="border-collapse: collapse; border: none; width: 100%;">
+<table align="center" style="border-collapse: collapse; border: none; table-layout: fixed;">
   <tr>
     <td colspan="2" align="center" style="border: none; padding: 4px;">
       <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
