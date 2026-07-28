@@ -32,7 +32,8 @@ Building scalable business systems, automating workflows, and transforming ideas
 </p>
 
 <p align="center">
-<i>"Building systems that make people work smarter, not harder."</i>
+  <i>"Building systems that make people work smarter, not harder."</i>
+</p>
   
   ---
 
