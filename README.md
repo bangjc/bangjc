@@ -35,7 +35,7 @@ Building scalable business systems, automating workflows, and transforming ideas
   <i>"Building systems that make people work smarter, not harder."</i>
 </p>
 
-<hr>
+---
 
 <table align="center">
   <tr>
@@ -72,9 +72,8 @@ Building scalable business systems, automating workflows, and transforming ideas
     </td>
   </tr>  
 </table>
-</p>
 
-<hr>
+---
 
 <h2 align="center">🚀 Featured Projects</h2>
 
@@ -96,7 +95,7 @@ Building scalable business systems, automating workflows, and transforming ideas
   </a>
 </p>
 
-<hr>
+---
 
 <p align="center">▼<br>
   <picture>
