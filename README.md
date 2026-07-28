@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm <b>Jenius Calvin</b></h1>
 <p align="center">
   🟢 <b>Status :</b> <i>Open to work</i> <br>[ <b>• Odoo Development • System Build • IT Infrastructur • Freelance •</b> ]<br>
-  <!-- 🔴 Currently focused on internal projects <br>-->
   ▼<br>
 </p>
 
@@ -14,13 +13,13 @@ Building scalable business systems, automating workflows, and transforming ideas
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/jenius-calvin/">
+  <a href="https://www.linkedin.com/in/jenius-calvin/" >
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://t.me/care_sys">
+  <a href="https://t.me/care_sys" >
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
   </a>
-  <a href="mailto:jeniuscalvin@email.com">
+  <a href="mailto:jeniuscalvin@email.com" >
     <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" />
   </a>
 </p>
@@ -33,32 +32,31 @@ Building scalable business systems, automating workflows, and transforming ideas
 
 <p align="center">
 <i>"Building systems that make people work smarter, not harder."</i>
-  
-  ---
+</p>
 
+---
+
+<!-- Badge Header Utama (Dibuat terpusat agar rapi secara mandiri) -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Stars-4-9ece6a?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Commits-175-7aa2f7?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Repos-19-e0af68?style=for-the-badge&logo=codeforces&logoColor=white" />
+  <img src="https://img.shields.io/badge/PRs-13-bb9af7?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Reviews-0-7dcfff?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Issues-41%2F1877-f7768e?style=for-the-badge&logo=github&logoColor=white" />
+</p>
+
+<!-- Bagian Streak & Top Languages Berjajar Ramping 50% : 50% -->
 <table align="center" style="border-collapse: collapse; border: none; width: 100%;">
   <tr>
-    <td colspan="2" align="center" style="padding: 10px; border: none; vertical-align: middle; text-align: center;">
-      <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
-        <img src="https://img.shields.io/badge/Stars-4-9ece6a?style=for-the-badge&logo=github&logoColor=white" />
-        <img src="https://img.shields.io/badge/Commits-175-7aa2f7?style=for-the-badge&logo=git&logoColor=white" />
-        <img src="https://img.shields.io/badge/Repos-19-e0af68?style=for-the-badge&logo=codeforces&logoColor=white" />
-        <img src="https://img.shields.io/badge/PRs-13-bb9af7?style=for-the-badge&logo=github&logoColor=white" />
-        <img src="https://img.shields.io/badge/Reviews-0-7dcfff?style=for-the-badge&logo=github&logoColor=white" />
-        <img src="https://img.shields.io/badge/Issues-41%2F1877-f7768e?style=for-the-badge&logo=github&logoColor=white" />
-      </div>
+    <td align="center" style="padding: 0px; border: none; width: 50%; vertical-align: middle;">
+      <img src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" style="max-width: 100%; display: block; margin: 0 auto;" />
     </td>
-  </tr>
-  <tr>
-    <td style="padding: 0px; border: none; text-align: center; width: 50%;">
-      <img src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
-    </td>
-    <td style="padding: 0px; border: none; text-align: center; width: 50%;">
-      <img src="https://github-readme-stats-bangjc.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
+    <td align="center" style="padding: 0px; border: none; width: 50%; vertical-align: middle;">
+      <img src="https://github-readme-stats-bangjc.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" style="max-width: 100%; display: block; margin: 0 auto;" />
     </td>
   </tr>
 </table>
-</p>
 
 ---
 
@@ -88,13 +86,13 @@ Building scalable business systems, automating workflows, and transforming ideas
 <img src="https://img.shields.io/badge/AppSheet_Solutions-green?style=flat-square" />
 <img src="https://img.shields.io/badge/Digital_SOP-red?style=flat-square" /><br>
   
-  <a href="https://github.com/bangjc/sheet-to-github-issues">
+  <a href="https://github.com/bangjc/sheet-to-github-issues" >
     <img width="230" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=sheet-to-github-issues&theme=tokyonight&hide_border=true" />
   </a>
-  <a href="https://github.com/bangjc/Google-Form-Approval-System">
+  <a href="https://github.com/bangjc/Google-Form-Approval-System" >
     <img width="230" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=Google-Form-Approval-System&theme=tokyonight&hide_border=true" />
   </a>
-  <a href="https://github.com/bangjc/web-audit-cli">
+  <a href="https://github.com/bangjc/web-audit-cli" >
     <img width="230" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=web-audit-cli&theme=tokyonight&hide_border=true" />
   </a>
 </p>
@@ -109,9 +107,9 @@ Building scalable business systems, automating workflows, and transforming ideas
   </picture>
 </p>
 
-<p align="center">       
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bangjc&theme=tokyo-night"/>
-  <img src="https://komarev.com/ghpvc/?username=bangjc&style=flat-square"/>
+<p align="center">        
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bangjc&theme=tokyo-night" />
+  <img src="https://komarev.com/ghpvc/?username=bangjc&style=flat-square" />
 </p>
 <p align="center">
   <i>Thanks for stopping by — let's connect and build something great together!</i>
