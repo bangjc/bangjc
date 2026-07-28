@@ -36,10 +36,11 @@ Building scalable business systems, automating workflows, and transforming ideas
   
   ---
 
-<table align="center" style="border-collapse: collapse; border: none; width: 100%;">
+<table align="center" style="border-collapse: collapse; border: none;">
   <tr>
     <td colspan="2" align="center" style="padding: 10px; border: none; vertical-align: middle; text-align: center;">
       <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
+        <p align="center"><b>▼ My Github Stats ▼</b></p>
         <img src="https://img.shields.io/badge/Stars-4-9ece6a?style=for-the-badge&logo=github&logoColor=white" />
         <img src="https://img.shields.io/badge/Commits-175-7aa2f7?style=for-the-badge&logo=git&logoColor=white" />
         <img src="https://img.shields.io/badge/Repos-19-e0af68?style=for-the-badge&logo=codeforces&logoColor=white" />
@@ -50,22 +51,34 @@ Building scalable business systems, automating workflows, and transforming ideas
     </td>
   </tr>
   <tr>
-    <td style="padding: 0px; border: none; text-align: center; width: 50%;">
-      <img src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
-    </td>
-    <td style="padding: 0px; border: none; text-align: center; width: 50%;">
-      <img src="https://github-readme-stats-bangjc.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
+    <td colspan="2" align="center" style="padding: 10px; border: none; vertical-align: middle; text-align: center;">
+      <p align="center"><b>🛠 Tech Stack</b></p>
+      <img src="https://skillicons.dev/icons?i=python,git,github,vscode" /><br>
+      <img src="https://img.shields.io/badge/Odoo-7A1FA2?logo=odoo&logoColor=white" />
+      <img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" />
+      <img src="https://img.shields.io/badge/AppSheet-4285F4?logo=google&logoColor=white" />
+      <img src="https://img.shields.io/badge/Google%20Sheets-34A853?logo=googlesheets&logoColor=white" />
+      <img src="https://img.shields.io/badge/Apps%20Script-4285F4?logo=google&logoColor=white" />
+      <img src="https://img.shields.io/badge/XML-E34F26" />
     </td>
   </tr>
+  <tr>
+    <td style="padding: 0px; border: none; text-align: center;">
+      <img src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
+    </td>
+    <td style="padding: 0px; border: none; text-align: center;">
+      <img src="https://github-readme-stats-bangjc.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
+    </td>
+  </tr>  
 </table>
 </p>
 
 ---
 
-<h2 align="center">🛠 Tech Stack</h2>
+<!-- <h2 align="center">🛠 Tech Stack</h2>
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=python,git,github,vscode" />
 </p>
 
 <p align="center">
@@ -75,18 +88,16 @@ Building scalable business systems, automating workflows, and transforming ideas
 <img src="https://img.shields.io/badge/Google%20Sheets-34A853?logo=googlesheets&logoColor=white" />
 <img src="https://img.shields.io/badge/Apps%20Script-4285F4?logo=google&logoColor=white" />
 <img src="https://img.shields.io/badge/XML-E34F26" />
-</p>
-
----
+</p> -->
 
 <h2 align="center">🚀 Featured Projects</h2>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Automation_Scripts-orange?style=flat-square" />
-<img src="https://img.shields.io/badge/Odoo_Modules-purple?style=flat-square" />
-<img src="https://img.shields.io/badge/Executive_Dashboard-blue?style=flat-square" />
-<img src="https://img.shields.io/badge/AppSheet_Solutions-green?style=flat-square" />
-<img src="https://img.shields.io/badge/Digital_SOP-red?style=flat-square" /><br>
+  <img src="https://img.shields.io/badge/Automation_Scripts-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Odoo_Modules-purple?style=flat-square" />
+  <img src="https://img.shields.io/badge/Executive_Dashboard-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/AppSheet_Solutions-green?style=flat-square" />
+  <img src="https://img.shields.io/badge/Digital_SOP-red?style=flat-square" /><br>
   
   <a href="https://github.com/bangjc/sheet-to-github-issues" >
     <img width="230" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=sheet-to-github-issues&theme=tokyonight&hide_border=true" />
