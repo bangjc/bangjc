@@ -63,10 +63,10 @@ Building scalable business systems, automating workflows, and transforming ideas
     </td>
   </tr>
   <tr>
-    <td style="padding: 0px; border: none; text-align: center;">
+    <td style="border: none; padding: 5px; white-space: nowrap; overflow-x: auto;">
       <img src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
     </td>
-    <td style="padding: 0px; border: none; text-align: center;">
+    <td style="border: none; padding: 5px; white-space: nowrap; overflow-x: auto;">
       <img src="https://github-readme-stats-bangjc.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
     </td>
   </tr>  
