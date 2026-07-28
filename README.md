@@ -1,6 +1,7 @@
 <h1 align="center">Hi 👋, I'm <b>Jenius Calvin</b></h1>
 <p align="center">
   🟢 <b>Status :</b> <i>Open to work</i> <br>[ <b>• Odoo Development • System Build • IT Infrastructur • Freelance •</b> ]<br>
+  <!-- 🔴 Currently focused on internal projects <br>-->
   ▼<br>
 </p>
 
@@ -32,47 +33,48 @@ Building scalable business systems, automating workflows, and transforming ideas
 
 <p align="center">
 <i>"Building systems that make people work smarter, not harder."</i>
-</p>
+  
+  ---
 
----
-
-<!-- Badge Header Utama (Dibuat terpusat agar rapi secara mandiri) -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Stars-4-9ece6a?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Commits-175-7aa2f7?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Repos-19-e0af68?style=for-the-badge&logo=codeforces&logoColor=white" />
-  <img src="https://img.shields.io/badge/PRs-13-bb9af7?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Reviews-0-7dcfff?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Issues-38%2F1877-f7768e?style=for-the-badge&logo=github&logoColor=white" />
-</p>
-
-<!-- Bagian Streak & Top Languages Berjajar Ramping 50% : 50% -->
 <table align="center" style="border-collapse: collapse; border: none; width: 100%;">
   <tr>
-    <td align="center" style="padding: 0px; border: none; width: 50%; vertical-align: middle;">
-      <img src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" style="max-width: 100%; display: block; margin: 0 auto;" />
+    <td colspan="2" align="center" style="padding: 10px; border: none; vertical-align: middle; text-align: center;">
+      <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
+        <img src="https://img.shields.io/badge/Stars-4-9ece6a?style=for-the-badge&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/Commits-175-7aa2f7?style=for-the-badge&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/Repos-19-e0af68?style=for-the-badge&logo=codeforces&logoColor=white" />
+        <img src="https://img.shields.io/badge/PRs-13-bb9af7?style=for-the-badge&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/Reviews-0-7dcfff?style=for-the-badge&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/Issues-41%2F1877-f7768e?style=for-the-badge&logo=github&logoColor=white" />
+      </div>
     </td>
-    <td align="center" style="padding: 0px; border: none; width: 50%; vertical-align: middle;">
-      <img src="https://github-readme-stats-bangjc.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" style="max-width: 100%; display: block; margin: 0 auto;" />
+  </tr>
+  <tr>
+    <td style="padding: 0px; border: none; text-align: center; width: 50%;">
+      <img src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
+    </td>
+    <td style="padding: 0px; border: none; text-align: center; width: 50%;">
+      <img src="https://github-readme-stats-bangjc.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
     </td>
   </tr>
 </table>
+</p>
 
 ---
 
 <h2 align="center">🛠 Tech Stack</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=python,git,github,vscode" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Odoo-7A1FA2?logo=odoo&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/AppSheet-4285F4?logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google%20Sheets-34A853?logo=googlesheets&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apps%20Script-4285F4?logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/XML-E34F26" />
+<img src="https://img.shields.io/badge/Odoo-7A1FA2?logo=odoo&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/AppSheet-4285F4?logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/Google%20Sheets-34A853?logo=googlesheets&logoColor=white" />
+<img src="https://img.shields.io/badge/Apps%20Script-4285F4?logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/XML-E34F26" />
 </p>
 
 ---
@@ -80,11 +82,11 @@ Building scalable business systems, automating workflows, and transforming ideas
 <h2 align="center">🚀 Featured Projects</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Automation_Scripts-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/Odoo_Modules-purple?style=flat-square" />
-  <img src="https://img.shields.io/badge/Executive_Dashboard-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/AppSheet_Solutions-green?style=flat-square" />
-  <img src="https://img.shields.io/badge/Digital_SOP-red?style=flat-square" /><br>
+<img src="https://img.shields.io/badge/Automation_Scripts-orange?style=flat-square" />
+<img src="https://img.shields.io/badge/Odoo_Modules-purple?style=flat-square" />
+<img src="https://img.shields.io/badge/Executive_Dashboard-blue?style=flat-square" />
+<img src="https://img.shields.io/badge/AppSheet_Solutions-green?style=flat-square" />
+<img src="https://img.shields.io/badge/Digital_SOP-red?style=flat-square" /><br>
   
   <a href="https://github.com/bangjc/sheet-to-github-issues" >
     <img width="230" height="110" src="https://github-readme-stats-bangjc.vercel.app/api/pin/?username=bangjc&repo=sheet-to-github-issues&theme=tokyonight&hide_border=true" />
@@ -107,7 +109,7 @@ Building scalable business systems, automating workflows, and transforming ideas
   </picture>
 </p>
 
-<p align="center">        
+<p align="center">       
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=bangjc&theme=tokyo-night" />
   <img src="https://komarev.com/ghpvc/?username=bangjc&style=flat-square" />
 </p>
