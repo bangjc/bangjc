@@ -14,9 +14,15 @@ Building scalable business systems, automating workflows, and transforming ideas
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/jenius-calvin/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="https://t.me/care_sys"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" /></a>
-  <a href="mailto:jeniuscalvin@email.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/jenius-calvin/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://t.me/care_sys">
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
+  </a>
+  <a href="mailto:jeniuscalvin@email.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" />
+  </a>
 </p>
 
 <p align="center">
@@ -33,7 +39,7 @@ Building scalable business systems, automating workflows, and transforming ideas
 <table align="center" style="border-collapse: collapse; border: none; table-layout: fixed;">
   <tr>
     <td colspan="2" align="center" style="border: none; padding: 4px;">
-      <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
+      <!-- <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;"> -->
         <p align="center"><b>▼ My Github Stats ▼</b></p>
         <img height="28" src="https://img.shields.io/badge/Stars-4-9ece6a?style=for-the-badge&logo=github&logoColor=white" />
         <img height="28" src="https://img.shields.io/badge/Commits-175-7aa2f7?style=for-the-badge&logo=git&logoColor=white" />
