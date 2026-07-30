@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm <b>Jenius Calvin</b></h1>
 <p align="center">
-  🟢 <b>Status :</b> <i>Open to work</i> <br>[ <b>• Odoo Development • System Build • IT Infrastructur • Freelance •</b> ]<br>
+  🟢 <b>Status : <i>Open to work</i></b> <br>[ <b>• Odoo Development • System Build • IT Infrastructur • Freelance •</b> ]<br>
   <!-- 🔴 Currently focused on internal projects <br>-->
   ▼<br>
 </p>
@@ -33,20 +33,32 @@ Building scalable business systems, automating workflows, and transforming ideas
 
 <p align="center">
 <i>"Building systems that make people work smarter, not harder."</i>
+</p>
   
   ---
 
 <table align="center" style="border-collapse: collapse; border: none; width: 100%;">
   <tr>
     <td colspan="2" align="center" style="padding: 10px; border: none; vertical-align: middle; text-align: center;">
-      <div style="display: flex; flex-direction: column; gap: 8px; align-items: center;">
+      <p><b>My Github Stats</b></p>
         <img src="https://img.shields.io/badge/Stars-4-9ece6a?style=for-the-badge&logo=github&logoColor=white" />
         <img src="https://img.shields.io/badge/Commits-175-7aa2f7?style=for-the-badge&logo=git&logoColor=white" />
         <img src="https://img.shields.io/badge/Repos-19-e0af68?style=for-the-badge&logo=codeforces&logoColor=white" />
         <img src="https://img.shields.io/badge/PRs-13-bb9af7?style=for-the-badge&logo=github&logoColor=white" />
         <img src="https://img.shields.io/badge/Reviews-0-7dcfff?style=for-the-badge&logo=github&logoColor=white" />
         <img src="https://img.shields.io/badge/Issues-41%2F1880-f7768e?style=for-the-badge&logo=github&logoColor=white" />
-      </div>
+      <p><b>🛠 Tech Stack</b></p>
+      <p align="center">
+        <img src="https://skillicons.dev/icons?i=python,git,github,vscode" />
+      </p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Odoo-7A1FA2?logo=odoo&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/AppSheet-4285F4?logo=google&logoColor=white" />
+        <img src="https://img.shields.io/badge/Google%20Sheets-34A853?logo=googlesheets&logoColor=white" />
+        <img src="https://img.shields.io/badge/Apps%20Script-4285F4?logo=google&logoColor=white" />
+        <img src="https://img.shields.io/badge/XML-E34F26" />
+      </p>
     </td>
   </tr>
   <tr>
@@ -58,26 +70,6 @@ Building scalable business systems, automating workflows, and transforming ideas
     </td>
   </tr>
 </table>
-</p>
-
----
-
-<h2 align="center">🛠 Tech Stack</h2>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,git,github,vscode" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Odoo-7A1FA2?logo=odoo&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/AppSheet-4285F4?logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google%20Sheets-34A853?logo=googlesheets&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apps%20Script-4285F4?logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/XML-E34F26" />
-</p>
-
----
 
 <h2 align="center">🚀 Featured Projects</h2>
 
