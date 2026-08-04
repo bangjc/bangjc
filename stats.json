@@ -5,9 +5,9 @@
         "following": 9
     },
     "repositories": {
-        "total_repos": 20,
+        "total_repos": 21,
         "public_repos": 8,
-        "private_repos": 12
+        "private_repos": 13
     },
     "contributions": {
         "total_commits": 0,
@@ -17,22 +17,23 @@
         "total_issues": "38/1897"
     },
     "languages": {
-        "Python": 48.56,
-        "JavaScript": 38.18,
-        "HTML": 4.46,
-        "Java": 4.16,
-        "SCSS": 2.61,
-        "CSS": 1.11,
-        "Less": 0.32,
-        "XSLT": 0.31,
-        "Shell": 0.13,
+        "Python": 51.59,
+        "JavaScript": 35.91,
+        "HTML": 4.2,
+        "Java": 3.91,
+        "SCSS": 2.45,
+        "CSS": 1.05,
+        "Less": 0.3,
+        "XSLT": 0.29,
+        "Shell": 0.12,
         "PHP": 0.06,
         "NSIS": 0.03,
         "Makefile": 0.03,
         "Batchfile": 0.02,
         "Sass": 0.02,
+        "C": 0.02,
+        "PowerShell": 0.01,
         "TypeScript": 0.0,
-        "PowerShell": 0.0,
         "Ruby": 0.0,
         "Vim Script": 0.0
     }
