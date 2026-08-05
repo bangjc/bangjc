@@ -46,7 +46,7 @@ Building scalable business systems, automating workflows, and transforming ideas
         <img src="https://img.shields.io/badge/Repos-21-e0af68?style=for-the-badge&logo=codeforces&logoColor=white" />
         <img src="https://img.shields.io/badge/PRs-13-bb9af7?style=for-the-badge&logo=github&logoColor=white" />
         <img src="https://img.shields.io/badge/Reviews-0-7dcfff?style=for-the-badge&logo=github&logoColor=white" />
-        <img src="https://img.shields.io/badge/Issues-38%2F1898-f7768e?style=for-the-badge&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/Issues-36%2F1898-f7768e?style=for-the-badge&logo=github&logoColor=white" />
       <p>--</p>
       <p><b>🛠 My Tech Stack</b></p>
         <img src="https://skillicons.dev/icons?i=python,git,github,vscode" /><br>
