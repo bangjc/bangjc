@@ -53,6 +53,12 @@ try:
     # Sama halnya untuk PR jika ingin format serupa (opsional, di sini kita ambil total PR biasa)
     prs_search = fetch_rest(f"https://api.github.com/search/issues?q=type:pr+author:{username}")
     script_total_prs = prs_search.get("total_count", 0) if prs_search else 0
+    
+    commits_search = fetch_rest(f"https://api.github.com/search/commits?q=author:{username}")
+    total_commits = commits_search.get("total_count", 0) if commits_search else 0
+    
+    reviews_search = fetch_rest(f"https://api.github.com/search/issues?q=type:pr+reviewed-by:{username}")
+    total_reviews = reviews_search.get("total_count", 0) if reviews_search else 0
 
     # 4. Ambil data Bahasa Pemrograman dari semua Repositories (Personal & Organisasi)
     language_counts = {}
@@ -86,10 +92,10 @@ try:
             "private_repos": private_repos_count
         },
         "contributions": {
-            "total_commits": 0,
+            "total_commits": total_commits,
             "total_stars_received": total_stars,
             "total_pull_requests": script_total_prs,
-            "pull_request_reviews": 0,
+            "pull_request_reviews": total_reviews,
             "total_issues": issues_display  # Format "Open/Total"
         },
         "languages": language_percentages
@@ -107,9 +113,10 @@ try:
             content = f.read()
 
         content = re.sub(r'(badge/Stars-)\d+(-)', r'\g<1>' + str(stats["contributions"]["total_stars_received"]) + r'\2', content)
+        content = re.sub(r'(badge/Commits-)\d+(-)', r'\g<1>' + str(stats["contributions"]["total_commits"]) + r'\2', content)
         content = re.sub(r'(badge/Repos-)\d+(-)', r'\g<1>' + str(stats["repositories"]["total_repos"]) + r'\2', content)
         content = re.sub(r'(badge/PRs-)\d+(-)', r'\g<1>' + str(stats["contributions"]["total_pull_requests"]) + r'\2', content)
-        
+        content = re.sub(r'(badge/Reviews-)\d+(-)', r'\g<1>' + str(stats["contributions"]["pull_request_reviews"]) + r'\2', content)
         # Untuk badge Issues yang berupa teks gabungan (Open/Total), sesuaikan penggantian registernya:
         content = re.sub(r'(badge/Issues-)[^?-]+(-)', r'\g<1>' + str(issues_display).replace('/', '%2F') + r'\2', content)
 
