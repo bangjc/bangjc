@@ -60,7 +60,7 @@ Building scalable business systems, automating workflows, and transforming ideas
   </tr>
   <tr>
     <td style="padding: 0px; border: none; text-align: center; width: 50%;">
-      <img src="https://streak-stats.demolab.com?user=bangjc&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
+      <img src="https://streak-stats.demolab.com?user=bangjc&theme=dark&hide_border=true&border_radius=4&date_format=j%20M%5B%20Y%5D&mode=weekly&currStreakNum=00FA03&background=45%2C00002EDE%2C134809DE&ring=37EB2D&fire=EB0000&dates=FDFF30" />
     </td>
     <td style="padding: 0px; border: none; text-align: center; width: 50%;">
       <img src="https://github-readme-stats-bangjc.vercel.app/api/top-langs/?username=bangjc&layout=compact&theme=tokyonight&hide_border=true&count_private=true" style="display: block; margin: 0 auto;" />
