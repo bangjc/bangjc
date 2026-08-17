@@ -1,7 +1,7 @@
 {
     "profile": {
         "username": "bangjc",
-        "followers": 5,
+        "followers": 4,
         "following": 9
     },
     "repositories": {
@@ -10,15 +10,15 @@
         "private_repos": 13
     },
     "contributions": {
-        "total_commits": 1171,
+        "total_commits": 1175,
         "total_stars_received": 5,
         "total_pull_requests": 14,
         "pull_request_reviews": 1,
         "total_issues": "35/1913"
     },
     "languages": {
-        "Python": 51.6,
-        "JavaScript": 35.9,
+        "Python": 51.62,
+        "JavaScript": 35.89,
         "HTML": 4.2,
         "Java": 3.91,
         "SCSS": 2.45,
