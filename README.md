@@ -42,11 +42,11 @@ Building scalable business systems, automating workflows, and transforming ideas
     <td colspan="2" align="center" style="padding: 10px; border: none; vertical-align: middle; text-align: center;">
       <p><b>My Github Stats</b></p>
         <img src="https://img.shields.io/badge/Stars-5-9ece6a?style=for-the-badge&logo=github&logoColor=white" />
-        <img src="https://img.shields.io/badge/Commits-1185-7aa2f7?style=for-the-badge&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/Commits-1186-7aa2f7?style=for-the-badge&logo=git&logoColor=white" />
         <img src="https://img.shields.io/badge/Repos-22-e0af68?style=for-the-badge&logo=codeforces&logoColor=white" />
         <img src="https://img.shields.io/badge/PRs-14-bb9af7?style=for-the-badge&logo=github&logoColor=white" />
         <img src="https://img.shields.io/badge/Reviews-1-7dcfff?style=for-the-badge&logo=github&logoColor=white" />
-        <img src="https://img.shields.io/badge/Issues-35%2F1914-f7768e?style=for-the-badge&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/Issues-33%2F1914-f7768e?style=for-the-badge&logo=github&logoColor=white" />
       <p>--</p>
       <p><b>🛠 My Tech Stack</b></p>
         <img src="https://skillicons.dev/icons?i=python,git,github,vscode" /><br>
