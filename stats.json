@@ -10,14 +10,14 @@
         "private_repos": 13
     },
     "contributions": {
-        "total_commits": 1188,
+        "total_commits": 1191,
         "total_stars_received": 5,
         "total_pull_requests": 14,
         "pull_request_reviews": 1,
         "total_issues": "32/1916"
     },
     "languages": {
-        "Python": 51.62,
+        "Python": 51.63,
         "JavaScript": 35.88,
         "HTML": 4.2,
         "Java": 3.91,
@@ -35,6 +35,7 @@
         "PowerShell": 0.01,
         "TypeScript": 0.0,
         "Ruby": 0.0,
-        "Vim Script": 0.0
+        "Vim Script": 0.0,
+        "PureBasic": 0.0
     }
 }
