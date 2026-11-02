@@ -10,17 +10,17 @@
         "private_repos": 14
     },
     "contributions": {
-        "total_commits": 1578,
+        "total_commits": 1580,
         "total_stars_received": 5,
         "total_pull_requests": 19,
         "pull_request_reviews": 1,
-        "total_issues": "52/2060"
+        "total_issues": "51/2065"
     },
     "languages": {
         "Python": 51.62,
         "JavaScript": 35.87,
         "HTML": 4.22,
-        "Java": 3.91,
+        "Java": 3.9,
         "SCSS": 2.45,
         "CSS": 1.05,
         "Less": 0.3,
