@@ -42,8 +42,8 @@ Building scalable business systems, automating workflows, and transforming ideas
     <td colspan="2" align="center" style="padding: 10px; border: none; vertical-align: middle; text-align: center;">
       <p><b>My Github Stats</b></p>
         <img src="https://img.shields.io/badge/Stars-5-9ece6a?style=for-the-badge&logo=github&logoColor=white" />
-        <img src="https://img.shields.io/badge/Commits-1692-7aa2f7?style=for-the-badge&logo=git&logoColor=white" />
-        <img src="https://img.shields.io/badge/Repos-26-e0af68?style=for-the-badge&logo=codeforces&logoColor=white" />
+        <img src="https://img.shields.io/badge/Commits-1702-7aa2f7?style=for-the-badge&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/Repos-27-e0af68?style=for-the-badge&logo=codeforces&logoColor=white" />
         <img src="https://img.shields.io/badge/PRs-19-bb9af7?style=for-the-badge&logo=github&logoColor=white" />
         <img src="https://img.shields.io/badge/Reviews-1-7dcfff?style=for-the-badge&logo=github&logoColor=white" />
         <img src="https://img.shields.io/badge/Issues-46%2F2092-f7768e?style=for-the-badge&logo=github&logoColor=white" />
