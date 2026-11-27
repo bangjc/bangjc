@@ -5,21 +5,21 @@
         "following": 8
     },
     "repositories": {
-        "total_repos": 28,
-        "public_repos": 14,
+        "total_repos": 29,
+        "public_repos": 15,
         "private_repos": 14
     },
     "contributions": {
-        "total_commits": 1741,
+        "total_commits": 1745,
         "total_stars_received": 5,
         "total_pull_requests": 19,
         "pull_request_reviews": 1,
         "total_issues": "46/2092"
     },
     "languages": {
-        "Python": 51.55,
-        "JavaScript": 35.83,
-        "HTML": 4.34,
+        "Python": 51.53,
+        "JavaScript": 35.81,
+        "HTML": 4.37,
         "Java": 3.9,
         "SCSS": 2.44,
         "CSS": 1.04,
